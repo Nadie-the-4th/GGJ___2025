@@ -29,6 +29,8 @@ public class playerController : MonoBehaviour
         float rotate = Input.GetAxis("Vertical"); //y and b
         playerRb.AddTorque(rotationForce * rotate);
 
+
+
         if (Input.GetKeyDown("space"))
         {
             playerRb.AddForce(transform.right * moveForce);
