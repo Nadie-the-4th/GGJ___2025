@@ -15,7 +15,13 @@ public class playerController : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody2D>();
         velocity = new Vector2(0.25f, 0f);
+
+        
+        
+
     }
+
+ 
 
     // Update is called once per frame
     void Update()
@@ -26,6 +32,7 @@ public class playerController : MonoBehaviour
         if (Input.GetKeyDown("space"))
         {
             playerRb.AddForce(transform.right * moveForce);
+            AkSoundEngine.PostEvent("Events_Levels_Area2_Start", this.gameObject);
         }
     }
 
