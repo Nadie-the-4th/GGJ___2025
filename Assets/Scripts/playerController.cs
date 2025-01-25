@@ -6,7 +6,8 @@ public class playerController : MonoBehaviour
 {
 
     private Rigidbody2D playerRb;
-    private float speed = 3.0f;
+    private float rotationForce = 3.0f;
+    private float moveForce = 100.0f;
     private Vector2 velocity;
 
     // Start is called before the first frame update
@@ -24,11 +25,17 @@ public class playerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        float rotate = Input.GetAxis("Vertical");
-        float move = Input.GetAxis("Horizontal");
+        float rotate = Input.GetAxis("Vertical"); //y and b
+        playerRb.AddTorque(rotationForce * rotate);
 
-        playerRb.AddTorque(speed * rotate);
-        playerRb.AddForce(transform.right * speed * move);
+        if (Input.GetKeyDown("space"))
+        {
+            playerRb.AddForce(transform.right * moveForce);
+        }
+            //float move = Input.GetAxis("Horizontal"); //space bar push
+
+        
+       
 
         //playerRb.MoveRotation(playerRb.rotation + speed * rotate);
         //playerRb.MovePosition(playerRb.position + velocity * move); 
