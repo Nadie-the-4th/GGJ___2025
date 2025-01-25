@@ -9,7 +9,7 @@ public class playerController : MonoBehaviour
     private float rotationForce = 3.0f;
     private float moveForce = 80.0f;
     private Vector2 velocity;
-
+    public float bounceForce;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,8 +36,19 @@ public class playerController : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("OnCollisionEnter2D");
+        if (collision.gameObject.CompareTag("Boundary"))
+        {
+            playerRb.AddForce(transform.right * (-moveForce* bounceForce));
+        }
     }
+
+    //if we decide to wrap the world
+    //void OnTriggerEnter2D(Collider2D col)
+    //{
+    //    Debug.Log("hit wall!!");
+    //    playerRb.AddForce(transform.right * -moveForce);
+    //}
+
 }
