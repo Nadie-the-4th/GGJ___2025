@@ -20,11 +20,6 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    void FixedUpdate()
-    {
         float rotate = Input.GetAxis("Vertical"); //y and b
         playerRb.AddTorque(rotationForce * rotate);
 
@@ -32,6 +27,11 @@ public class playerController : MonoBehaviour
         {
             playerRb.AddForce(transform.right * moveForce);
         }
+    }
+
+    void FixedUpdate()
+    {
+        
             //float move = Input.GetAxis("Horizontal"); //space bar push
 
         
