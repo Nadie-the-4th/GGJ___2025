@@ -6,7 +6,7 @@ public class playerController : MonoBehaviour
 {
 
     private Rigidbody2D playerRb;
-    private float speed = 5.0f;
+    private float speed = 3.0f;
     private Vector2 velocity;
 
     // Start is called before the first frame update
@@ -27,7 +27,19 @@ public class playerController : MonoBehaviour
         float rotate = Input.GetAxis("Vertical");
         float move = Input.GetAxis("Horizontal");
 
-        playerRb.MoveRotation(playerRb.rotation + speed * rotate);
-        playerRb.MovePosition(playerRb.position + velocity * move);
+        playerRb.AddTorque(speed * rotate);
+        playerRb.AddForce(transform.right * speed * move);
+
+        //playerRb.MoveRotation(playerRb.rotation + speed * rotate);
+        //playerRb.MovePosition(playerRb.position + velocity * move); 
+
+        //playerRb.AddForce(transform.up * speed * move, ForceMode2D.Impulse);
+
+        //take force and multiply it by up rigibbody.addForce(transform.right * force), lowercase transform.up
+
+        //rigidbody.addtorque(f)
+
+        //put camera into Late iupdate
+
     }
 }
