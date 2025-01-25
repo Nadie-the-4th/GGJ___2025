@@ -28,7 +28,9 @@ public class coroutine : MonoBehaviour
         Debug.Log("Hi");
         Dialogue.StartDialogue(StartNode);
 
+
         yield return new WaitForSeconds(145f);
         Debug.Log("Hey");
     }
+
 }
