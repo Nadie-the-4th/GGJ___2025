@@ -1,16 +1,39 @@
 ﻿title: Beginnode
 tags: Beginnode
 ---
-<<jump Player>>
-// will print "Jumping!" in the console
 
 ...
 what?
 what's... going on?
-Can... anyone hear me?
+
+
+
+You: Holy shit, the bubble I just blew is talking to me. (Am I trippin?)
+
+Bubble: Can... anyone hear me?
+
+...
+<<wait 1>>
+    -> I can hear you.
+
+
+Who said that?
+
+
+-> Your creator.
+
+What's 'creator'?
+
+-> No one of importance.
+
+
+
+Birth? What's that?
+
+You: The beginning of life.
+
+
 ...
 
->I can hear you.
-
-
+<<wait 
 ===
