@@ -11,7 +11,7 @@ public class Timer : MonoBehaviour
     public TMP_Text timeText;
     public bool timesUp;
     public GameObject playerAnim;
-    Animator animate;
+    public Animator animate;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +33,7 @@ public class Timer : MonoBehaviour
         {
             timeValue = 0;
             timesUp = true;
-            animate.SetTrigger("TimeUp");
+            animate.SetBool("TimeUp", true);
         }
 
         displayTime(timeValue);
