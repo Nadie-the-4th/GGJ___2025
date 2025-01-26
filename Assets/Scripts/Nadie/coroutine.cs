@@ -1,19 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using Yarn;
 using Yarn.Unity;
 
 public class coroutine : MonoBehaviour
 {
+
+    [YarnCommand("jump")]
+    public void Jump() 
+    {
+        print("its working!");
+        Debug.Log("Jumping!");
+    }
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(TimedDialogue());
     }
 
-    public string StartNode;
+    public string Beginnode;
     [SerializeField] DialogueRunner Dialogue;
+
+
+     public string Questionnode;
+    [SerializeField] DialogueRunner Dialogue2;
+    public string Tensecnode;
+    [SerializeField] DialogueRunner Dialogue3;
+    
+        public string Deathnode;
+    [SerializeField] DialogueRunner Dialogue4;
+
 
     // public void Interact()
     // {
@@ -25,12 +43,23 @@ public class coroutine : MonoBehaviour
     private IEnumerator TimedDialogue()
     {
         yield return new WaitForSeconds(2f);
-        Debug.Log("Hi");
-        Dialogue.StartDialogue(StartNode);
+        Debug.Log("Hello World");
+        Dialogue.StartDialogue(Beginnode);
 
 
         yield return new WaitForSeconds(145f);
-        Debug.Log("Hey");
+        Debug.Log("awkwarddddd");
+        Dialogue.StartDialogue(Questionnode);
+
+        yield return new WaitForSeconds(290f);
+        Debug.Log("10 seconds before death :3");
+        Dialogue.StartDialogue(Tensecnode);
+
+        yield return new WaitForSeconds(300f);
+        Debug.Log("so long, bubble...");
+        Dialogue.StartDialogue(Deathnode);
+
+        
     }
 
 }

@@ -1,0 +1,6 @@
+﻿title: CharacterMovement
+tags: CharacterMovement
+---
+<<jump MyCharacter>>
+// will print "Jumping!" in the console
+===
