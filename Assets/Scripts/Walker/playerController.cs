@@ -34,7 +34,7 @@ public class playerController : MonoBehaviour
         if (Input.GetKeyDown("space"))
         {
             playerRb.AddForce(transform.right * moveForce);
-            AkSoundEngine.PostEvent("Events_Levels_Area2_Start", this.gameObject);
+            
         }
     }
 
@@ -43,6 +43,7 @@ public class playerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Boundary"))
         {
             playerRb.AddForce(transform.right * (-moveForce* bounceForce));
+            AkSoundEngine.PostEvent("Events_SFX_Player_Border", this.gameObject);
         }
     }
 
@@ -53,12 +54,14 @@ public class playerController : MonoBehaviour
         if (col.gameObject.CompareTag("Area1"))
         {
             Debug.Log("Area1 Boundary");
+            AkSoundEngine.PostEvent("Events_Levels_Area1_Start", this.gameObject);
         }
 
         //AREA TWO
         else if (col.gameObject.CompareTag("Area2"))
         {
             Debug.Log("Area2 Boundary");
+            AkSoundEngine.PostEvent("Events_Levels_Area2_Start", this.gameObject);
         }
 
         //AREA THREE

@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: 8e72a88f0d11604fa8c66a266e6dfedc
     GuidInternal: 
-    m_lastTime: -8584694578752829283
+    m_lastTime: -8584637580694259475
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 22d96f0cd7261f4d868e5973d7a48a86
     GuidInternal: 
-    m_lastTime: -8584638173991191903
+    m_lastTime: -8584637580695105985
     List:
     - name: BG
       guid: c3ab3f9d634b32439073fa5456fcec02
@@ -206,7 +206,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 358577ec1a2f6f42b0e9480342750074
     GuidInternal: 
-    m_lastTime: -8584637758872460460
+    m_lastTime: -8584637580694911689
     List:
     - name: Area
       guid: f0188c45458e35488f9defa94a75e7ef
@@ -262,7 +262,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: d9411f7d32525344902aa1f103558772
     GuidInternal: 
-    m_lastTime: -8584637723420498941
+    m_lastTime: -8584637371837310160
     List:
     - name: Area1
       guid: 4bc68b267b0e1d41981066eed9d1eba5
@@ -356,8 +356,8 @@ MonoBehaviour:
         guid: 5ac4432ba616ac4aa35a4bd18adad83c
       Path: Events/Default Work Unit/Events_Game_Start
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Events_Levels_Area1_Start
       guid: c2399056c3f94b4db2180ddb6a837366
       id: 2891024992
@@ -536,7 +536,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 942e7dc0cbc97f448adc2350497ba052
     GuidInternal: 
-    m_lastTime: -8584638195064029647
+    m_lastTime: -8584637580694698846
     List:
     - name: Distance
       guid: ba472c38178b2643a0aead124293fcc3
@@ -592,7 +592,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 5c4c21b049bcca478c2f4a6affdd53a1
     GuidInternal: 
-    m_lastTime: -8584637749986960461
+    m_lastTime: -8584637580695149497
     List:
     - name: Level
       guid: 3ed97a61caf12c47b7fcc15fbafebce3
@@ -688,8 +688,90 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 294821fef07e8a44ad974d5429733e9e
     GuidInternal: 
-    m_lastTime: -8584638173991109771
+    m_lastTime: -8584637412830542291
     List:
+    - name: Anxiety
+      guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
+      id: 4143496951
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 294821fef07e8a44ad974d5429733e9e
+      - ElementName: Anxiety
+        ObjectType: 11
+        guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
+      Path: Switches/Default Work Unit/Anxiety
+      values:
+      - name: Level1
+        guid: 4249f87f22464f4b9a0f57b30154291e
+        id: 2678230382
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 294821fef07e8a44ad974d5429733e9e
+        - ElementName: Anxiety
+          ObjectType: 11
+          guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
+        - ElementName: Level1
+          ObjectType: 10
+          guid: 4249f87f22464f4b9a0f57b30154291e
+      - name: Level2
+        guid: 663a7b5f4329da4ea177e4aea7e87ddd
+        id: 2678230381
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 294821fef07e8a44ad974d5429733e9e
+        - ElementName: Anxiety
+          ObjectType: 11
+          guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
+        - ElementName: Level2
+          ObjectType: 10
+          guid: 663a7b5f4329da4ea177e4aea7e87ddd
+      - name: Level3
+        guid: 086f72fee083e743b753b6dc780f273f
+        id: 2678230380
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 294821fef07e8a44ad974d5429733e9e
+        - ElementName: Anxiety
+          ObjectType: 11
+          guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
+        - ElementName: Level3
+          ObjectType: 10
+          guid: 086f72fee083e743b753b6dc780f273f
+      - name: Level4
+        guid: e55f494144ed4e4b858903e42b9b4d76
+        id: 2678230379
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 294821fef07e8a44ad974d5429733e9e
+        - ElementName: Anxiety
+          ObjectType: 11
+          guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
+        - ElementName: Level4
+          ObjectType: 10
+          guid: e55f494144ed4e4b858903e42b9b4d76
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Movement
       guid: 401729007ec74947a76f628b690bf816
       id: 2129636626
@@ -705,9 +787,9 @@ MonoBehaviour:
         guid: 401729007ec74947a76f628b690bf816
       Path: Switches/Default Work Unit/Movement
       values:
-      - name: New_Switch
+      - name: Idle
         guid: 6caf765128047048b54a7ee51ec0b9fa
-        id: 1914034948
+        id: 1874288895
         PathAndIcons:
         - ElementName: Switches
           ObjectType: 5
@@ -718,12 +800,12 @@ MonoBehaviour:
         - ElementName: Movement
           ObjectType: 11
           guid: 401729007ec74947a76f628b690bf816
-        - ElementName: New_Switch
+        - ElementName: Idle
           ObjectType: 10
           guid: 6caf765128047048b54a7ee51ec0b9fa
-      - name: New_Switch_01
+      - name: Moving
         guid: 248a3782be092640b63fd49eb92ffad5
-        id: 3952450474
+        id: 2649703675
         PathAndIcons:
         - ElementName: Switches
           ObjectType: 5
@@ -734,7 +816,7 @@ MonoBehaviour:
         - ElementName: Movement
           ObjectType: 11
           guid: 401729007ec74947a76f628b690bf816
-        - ElementName: New_Switch_01
+        - ElementName: Moving
           ObjectType: 10
           guid: 248a3782be092640b63fd49eb92ffad5
       ValueGuids: []
@@ -818,7 +900,7 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: dc1387c994b7c74ea75db5f07b6e92fa
     GuidInternal: 
-    m_lastTime: -8584693764712575702
+    m_lastTime: -8584637580694348409
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 0d0000000e0000000f000000
