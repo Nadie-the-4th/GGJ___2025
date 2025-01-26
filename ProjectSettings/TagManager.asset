@@ -9,6 +9,7 @@ TagManager:
   - Area2
   - Area3
   - Bubble
+  - Locator
   layers:
   - Default
   - TransparentFX
