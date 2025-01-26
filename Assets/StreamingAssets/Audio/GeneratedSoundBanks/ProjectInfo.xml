@@ -3,10 +3,10 @@
 	<Project Name="GGJ2025 Wwise" GUID="{4BFF9A47-C992-445B-9353-20B4E780F617}" Generator="2023.1.7.8574"/>
 	<CacheRoot>../../../../../GGJ2025 Wwise/.cache</CacheRoot>
 	<Platforms>
-		<Platform Name="Mac" GUID="{EE7464FE-288A-49CB-BCC4-DC95919404BE}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../../GGJ2025 Wwise/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Mac" GUID="{EE7464FE-288A-49CB-BCC4-DC95919404BE}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
 	</Platforms>
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{BA06DDBA-551F-4DB4-B12C-853C0BD72AF1}" Default="true" UseAsStandIn="true"/>
 	</Languages>
-	<FileHash>{14641CC8-88C4-5181-6555-73902202524C}</FileHash>
+	<FileHash>{63B6D4AD-0F84-ABED-DD0B-966A04AC58EE}</FileHash>
 </ProjectInfo>
