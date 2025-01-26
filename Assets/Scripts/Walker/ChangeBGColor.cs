@@ -23,5 +23,10 @@ public class ChangeBGColor : MonoBehaviour
         {
             BGColors.SetTrigger("Blue");
         }
+
+        if (Input.GetKeyDown("u"))
+        {
+            BGColors.SetTrigger("Purple");
+        }
     }
 }
