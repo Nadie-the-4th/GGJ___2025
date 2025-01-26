@@ -16,11 +16,8 @@ public class coroutine : MonoBehaviour
         StartCoroutine(TimedDialogue());
     }
 
-
-
     public string Beginnode;
     [SerializeField] DialogueRunner Dialogue;
-
 
      public string Questionnode;
     [SerializeField] DialogueRunner Dialogue2;
@@ -48,11 +45,11 @@ public class coroutine : MonoBehaviour
         
 
 
-        yield return new WaitForSeconds(20f);
+        yield return new WaitForSeconds(145f);
         Debug.Log("awkwarddddd");
         Dialogue.StartDialogue(Questionnode);
 
-        yield return new WaitForSeconds(40f);
+        yield return new WaitForSeconds(290f);
         Debug.Log("10 seconds before death :3");
         Dialogue.StartDialogue(Tensecnode);
 
