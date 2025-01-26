@@ -16,7 +16,7 @@ public class TimedMusicEvents : MonoBehaviour
 
     [YarnCommand("Question")]
  
-       public static void Questionnode() 
+       public static void Questionnode()
     {
         Debug.Log("Question works!");
 
