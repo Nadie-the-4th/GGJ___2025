@@ -6,17 +6,14 @@ using Yarn.Unity;
 public class TimedMusicEvents : MonoBehaviour
 {
     public GameObject playerControl;
-
-    // Start is called before the first frame update
-    [YarnCommand("Birth")]
-
-    // Start is called before the first frame update
     public void Start()
     {
         playerControl.GetComponent<playerController>();
     }
 
-    public static void Beginnode() 
+    // Start is called before the first frame update
+    [YarnCommand("Birth")]
+    public void Beginnode() 
     {
         Debug.Log("Birth works!");
         
@@ -25,7 +22,7 @@ public class TimedMusicEvents : MonoBehaviour
 
     [YarnCommand("Question")]
  
-       public static void Questionnode()
+       public void Questionnode()
     {
         AkSoundEngine.PostEvent("Events_SFX_Player_Question", playerControl);
         Debug.Log("Question works!");
@@ -35,7 +32,7 @@ public class TimedMusicEvents : MonoBehaviour
 
    [YarnCommand("Ten")]
 
-       public static void Tensecnode() 
+       public void Tensecnode() 
     {
         Debug.Log("Ten works!");        
 

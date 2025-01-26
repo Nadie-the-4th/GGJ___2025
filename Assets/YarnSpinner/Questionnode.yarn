@@ -21,23 +21,13 @@ Bubble: Tell the truth. I trust you.
 You: Yes. Your life will end soon, but...
 
     -> it's going to be okay. Enjoy the rest of the precious time you have here.
-<<jump to calm>>
+
 
 
     -> there's nothing you can do to stop it. I'm sorry.
-<<jump to stress>>
 
-===
-
-
-title: calm
----
 
 ===
 
 
 
-title: stress
----
-
-===
