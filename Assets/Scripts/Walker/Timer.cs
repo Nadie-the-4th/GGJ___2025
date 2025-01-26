@@ -44,6 +44,11 @@ public class Timer : MonoBehaviour
             animate.SetBool("TimeUp", true);
             BubblePop();
 
+            timeValue = 60;
+            AkSoundEngine.PostEvent("Events_SFX_Player_Question", playerControl);
+            timeValue = 20;
+            AkSoundEngine.PostEvent("Events_SFX_Player_10Secs", playerControl);
+
             timeValue = 1;
             AkSoundEngine.PostEvent("Events_SFX_Player_Death", playerControl);
 
