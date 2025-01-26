@@ -23,7 +23,7 @@ public class Timer : MonoBehaviour
 
 
         locator = GameObject.FindWithTag("Locator");
-        timeValue = 300;
+        timeValue = 90;
         timesUp = false;
         playerControl.GetComponent<playerController>();
     }
