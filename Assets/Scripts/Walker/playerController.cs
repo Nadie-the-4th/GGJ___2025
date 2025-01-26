@@ -10,10 +10,15 @@ public class playerController : MonoBehaviour
     private float moveForce = 80.0f;
     private Vector2 velocity;
     public float bounceForce;
+    public GameObject playerSprite;
+    Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
+        animator = playerSprite.GetComponent<Animator>();
+
         velocity = new Vector2(0.25f, 0f);
 
         
@@ -34,7 +39,7 @@ public class playerController : MonoBehaviour
         if (Input.GetKeyDown("space"))
         {
             playerRb.AddForce(transform.right * moveForce);
-            
+            animator.SetTrigger("Push");
         }
     }
 
