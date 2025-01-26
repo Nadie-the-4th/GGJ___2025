@@ -1,7 +1,7 @@
 ﻿title: Questionnode
 tags: Questionnode
 ---
-<<Question>>
+<<Question Player>>
 Bubble: hey, spooky crater guy? I have a question.
 
 You: What is it?
@@ -21,11 +21,20 @@ Bubble: Tell the truth. I trust you.
 You: Yes. Your life will end soon, but...
 
     -> it's going to be okay. Enjoy the rest of the precious time you have here.
+        <<jump calm>>
+    -> there's nothing you can do to stop it. I'm sorry.
+        <<jump stress>>
+===
 
-You: Hate to cut it short, but you got about twenty seconds left.
+
+
+title: calm
+tags: calm
+---
 
 Bubble: What?!
-
+You: You have around thirty seconds left.
+Bubble: WHAT?!
 You: I'm surprised you made it this far, most bubbles pop in the first ten seconds.
 
 Bubble: So it's really over...
@@ -35,4 +44,20 @@ Bubble: ...I understand. Thank you for helping me through this nightmare.
 You: It's been an honor. Do you have any final words?
 Bubble: ...it's been real.
 You: Well said.
+===
+
+
+title: stress
+tags: stress
+---
+
+Bubble: What?!
+You: ...And you have thirty seconds left.
+Bubble: NO NO NO NO NO! I NEED MORE TIME! WHY DON'T I HAVE MORE TIME?!!!
+You: I'm sorry! There's nothing I can do!!! I'll never make a bubble again!
+Bubble: Please don't!
+You: Any last words?
+Bubble: NO! NOT YET! NOT YE-
+You: Goodbye, bubble friend.
+You: Never buying a bubble wand from a wizard ever again.
 ===
