@@ -10,10 +10,13 @@ public class Timer : MonoBehaviour
     public float timeValue;
     public TMP_Text timeText;
     public bool timesUp;
+    public GameObject playerAnim;
+    Animator animate;
 
     // Start is called before the first frame update
     void Start()
     {
+        animate = playerAnim.GetComponent<Animator>();
         timeValue = 300;
         timesUp = false;
     }
@@ -30,6 +33,7 @@ public class Timer : MonoBehaviour
         {
             timeValue = 0;
             timesUp = true;
+            animate.SetTrigger("TimeUp");
         }
 
         displayTime(timeValue);

@@ -172,9 +172,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: befd3e12c92ac4ada835775bd4f44137, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeValue: 90
+  timeValue: 10
   timeText: {fileID: 10474729}
   timesUp: 0
+  playerAnim: {fileID: 1981726215}
 --- !u!114 &10474729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1610,6 +1611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bounceForce: 10
+  playerSprite: {fileID: 1981726215}
 --- !u!58 &1209607636
 CircleCollider2D:
   m_ObjectHideFlags: 0
