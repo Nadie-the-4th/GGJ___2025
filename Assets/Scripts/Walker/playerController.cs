@@ -77,4 +77,9 @@ public class playerController : MonoBehaviour
         }
     }
 
+    public void BubblePop()
+    {
+        Destroy(playerSprite);
+    }
+
 }

@@ -12,12 +12,13 @@ public class Timer : MonoBehaviour
     public bool timesUp;
     public GameObject playerAnim;
     public Animator animate;
+   
 
     // Start is called before the first frame update
     void Start()
     {
         animate = playerAnim.GetComponent<Animator>();
-        timeValue = 300;
+        timeValue = 10;
         timesUp = false;
     }
 
@@ -35,6 +36,7 @@ public class Timer : MonoBehaviour
             timeValue = 0;
             timesUp = true;
             animate.SetBool("TimeUp", true);
+            BubblePop();
             AkSoundEngine.PostEvent("Events_SFX_Player_Death", this.gameObject); 
         }
 
@@ -54,5 +56,25 @@ public class Timer : MonoBehaviour
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds); //left of colon formats 1st variable, right formats 2nd
             
 
+    }
+
+    public void BubblePop()
+    {
+        
+        StartCoroutine(ExampleCoroutine());
+    }
+
+
+    IEnumerator ExampleCoroutine()
+    {
+        //Print the time of when the function is first called.
+        Debug.Log("Started Coroutine at timestamp : " + Time.time);
+
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(1);
+
+        //After we have waited 5 seconds print the time again.
+        Destroy(playerAnim);
+        Debug.Log("Bubble  Popped: " + Time.time);
     }
 }
