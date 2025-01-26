@@ -179,6 +179,7 @@ MonoBehaviour:
   animate: {fileID: 0}
   fullPlayer: {fileID: 107260073}
   locator: {fileID: 1224140275}
+  playerControl: {fileID: 1209607628}
 --- !u!114 &10474729
 MonoBehaviour:
   m_ObjectHideFlags: 0

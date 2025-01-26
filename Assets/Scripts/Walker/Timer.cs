@@ -14,6 +14,7 @@ public class Timer : MonoBehaviour
     public Animator animate;
     public GameObject fullPlayer;
     public GameObject locator;
+    public GameObject playerControl;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class Timer : MonoBehaviour
         animate = playerAnim.GetComponent<Animator>();
         timeValue = 10;
         timesUp = false;
+        playerControl.GetComponent<playerController>();
     }
 
     // Update is called once per frame
@@ -38,8 +40,14 @@ public class Timer : MonoBehaviour
             timesUp = true;
             animate.SetBool("TimeUp", true);
             BubblePop();
-            AkSoundEngine.PostEvent("Events_SFX_Player_Death", this.gameObject); 
+
+            timeValue = 1;
+            AkSoundEngine.PostEvent("Events_SFX_Player_Death", playerControl);
+
+
+
         }
+        
 
         displayTime(timeValue);
     }
@@ -61,9 +69,12 @@ public class Timer : MonoBehaviour
 
     public void BubblePop()
     {
+        
         Destroy(locator);
         StartCoroutine(ExampleCoroutine());
-       
+        
+        
+
     }
 
 
