@@ -414,7 +414,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8, y: 66}
+  m_AnchoredPosition: {x: 8, y: 96}
   m_SizeDelta: {x: 1474, y: 220}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &953468537
@@ -1119,7 +1119,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -88, y: -36}
+  m_AnchoredPosition: {x: -88, y: -2}
   m_SizeDelta: {x: 661.9757, y: 195.4027}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2004061907
@@ -1144,7 +1144,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Use "y" and "b" to set rotation
 
-    Press "k" to push the bubble'
+    Press "k" to push the bubble
+
+    Use
+    the mouse to continue dialogue'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b9b9509f68a53491e9dc9552685bd6a9, type: 2}
   m_sharedMaterial: {fileID: 8583602619508591038, guid: b9b9509f68a53491e9dc9552685bd6a9, type: 2}
