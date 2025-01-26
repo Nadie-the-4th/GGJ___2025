@@ -33,7 +33,6 @@ namespace AK
                 static const AkUniqueID AREA1 = 629923843U;
                 static const AkUniqueID AREA2 = 629923840U;
                 static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID TITLE = 3705726509U;
             } // namespace STATE
         } // namespace LEVEL
 
@@ -76,9 +75,9 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID AREA = 3686139462U;
+        static const AkUniqueID AREAS = 629923905U;
+        static const AkUniqueID MAINMENU = 3604647259U;
         static const AkUniqueID PLAYER = 1069431850U;
-        static const AkUniqueID UI = 1551306167U;
     } // namespace BANKS
 
     namespace BUSSES

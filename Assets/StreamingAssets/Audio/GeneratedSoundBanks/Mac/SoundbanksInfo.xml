@@ -9,6 +9,126 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="629923905" Type="User" Language="SFX" Hash="{B314D011-275A-07A5-8A4B-DCE98132DB24}">
+			<ShortName>Areas</ShortName>
+			<Path>Areas.bnk</Path>
+			<Media>
+				<File Id="246268980" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piece2_Layer3.wav</ShortName>
+					<CachePath>SFX/Piece2_Layer3_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="273874876" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piece1_Melody.wav</ShortName>
+					<CachePath>SFX/Piece1_Melody_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="286275588" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piece1_Layer2.wav</ShortName>
+					<CachePath>SFX/Piece1_Layer2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="377225977" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piece1_Layer1.wav</ShortName>
+					<CachePath>SFX/Piece1_Layer1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="539203744" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piece2_Layer2.wav</ShortName>
+					<CachePath>SFX/Piece2_Layer2_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="931020013" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piece2_Layer1.wav</ShortName>
+					<CachePath>SFX/Piece2_Layer1_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="938267252" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piece1_Layer0.wav</ShortName>
+					<CachePath>SFX/Piece1_Layer0_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1004455760" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Player_Movement_Idle.wav</ShortName>
+					<CachePath>SFX/SFX_Player_Movement_Idle_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1013895534" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Piece1_Drone.wav</ShortName>
+					<CachePath>SFX/Piece1_Drone_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="1020072390" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BGs.wav</ShortName>
+					<CachePath>SFX/BGs_C0E215E8.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="270303946" Name="Events_Game_Start" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1004455760"/>
+						<MediaRef Id="1020072390"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2782712965" Id="629923843"/>
+							<MediaRefs>
+								<MediaRef Id="273874876"/>
+								<MediaRef Id="286275588"/>
+								<MediaRef Id="938267252"/>
+								<MediaRef Id="1013895534"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="2782712965" Id="629923840"/>
+							<MediaRefs>
+								<MediaRef Id="246268980"/>
+								<MediaRef Id="377225977"/>
+								<MediaRef Id="539203744"/>
+								<MediaRef Id="931020013"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="2891024992" Name="Events_Levels_Area1_Start"/>
+					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="2782712965" Id="629923843" Name="Area1"/>
+					</ActionSetState>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="4143496951" Id="2678230382" Name="Level1"/>
+						<ActionSetSwitchEntry GroupId="2654366170" Id="3881926874" Name="Early"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="2891024992" Name="Events_Levels_Area1_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="2782712965" Id="629923843" Name="Area1"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2811708267" Name="Events_Levels_Area2_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="2782712965" Id="629923840" Name="Area2"/>
+					</ActionSetState>
+				</Event>
+			</Events>
+			<StateGroups>
+				<StateGroup Id="2782712965" Name="Level">
+					<States>
+						<State Id="629923840" Name="Area2"/>
+						<State Id="629923843" Name="Area1"/>
+						<State Id="748895195" Name="None"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2654366170" Name="Time">
+					<Switches>
+						<Switch Id="529726532" Name="End"/>
+						<Switch Id="1182670505" Name="Mid"/>
+						<Switch Id="3881926874" Name="Early"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4143496951" Name="Anxiety">
+					<Switches>
+						<Switch Id="2678230379" Name="Level4"/>
+						<Switch Id="2678230380" Name="Level3"/>
+						<Switch Id="2678230381" Name="Level2"/>
+						<Switch Id="2678230382" Name="Level1"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
 		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{D08FFBFD-673A-C15F-6A2B-8FA8B9E9DF4C}">
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
@@ -72,7 +192,6 @@
 						<State Id="629923840" Name="Area2"/>
 						<State Id="629923843" Name="Area1"/>
 						<State Id="748895195" Name="None"/>
-						<State Id="3705726509" Name="Title"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
@@ -94,124 +213,26 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1551306167" Type="User" Language="SFX" Hash="{B7C72A31-8085-B2B3-EED9-10A6DC85E783}">
-			<ShortName>UI</ShortName>
-			<Path>UI.bnk</Path>
+		<SoundBank Id="3604647259" Type="User" Language="SFX" Hash="{61FBC549-5B6C-6079-958B-6DEAC7FCC9B3}">
+			<ShortName>MainMenu</ShortName>
+			<Path>MainMenu.bnk</Path>
 			<Media>
-				<File Id="246268980" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piece2_Layer3.wav</ShortName>
-					<CachePath>SFX/Piece2_Layer3_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="273874876" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piece1_Melody.wav</ShortName>
-					<CachePath>SFX/Piece1_Melody_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="286275588" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piece1_Layer2.wav</ShortName>
-					<CachePath>SFX/Piece1_Layer2_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="377225977" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piece1_Layer1.wav</ShortName>
-					<CachePath>SFX/Piece1_Layer1_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="539203744" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piece2_Layer2.wav</ShortName>
-					<CachePath>SFX/Piece2_Layer2_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="931020013" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piece2_Layer1.wav</ShortName>
-					<CachePath>SFX/Piece2_Layer1_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="938267252" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piece1_Layer0.wav</ShortName>
-					<CachePath>SFX/Piece1_Layer0_FBC78EF0.wem</CachePath>
-				</File>
 				<File Id="982778482" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Music_Title.wav</ShortName>
 					<CachePath>SFX/Music_Title_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="1004455760" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Player_Movement_Idle.wav</ShortName>
-					<CachePath>SFX/SFX_Player_Movement_Idle_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="1013895534" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Piece1_Drone.wav</ShortName>
-					<CachePath>SFX/Piece1_Drone_FBC78EF0.wem</CachePath>
-				</File>
-				<File Id="1020072390" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>BGs.wav</ShortName>
-					<CachePath>SFX/BGs_C0E215E8.wem</CachePath>
-				</File>
 			</Media>
 			<Events>
 				<Event Id="1634477928" Name="Events_Game_MainMenu" DurationType="Infinite">
-					<SwitchContainers>
-						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="2782712965" Id="629923843"/>
-							<MediaRefs>
-								<MediaRef Id="273874876"/>
-								<MediaRef Id="286275588"/>
-								<MediaRef Id="938267252"/>
-								<MediaRef Id="1013895534"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="2782712965" Id="629923840"/>
-							<MediaRefs>
-								<MediaRef Id="246268980"/>
-								<MediaRef Id="377225977"/>
-								<MediaRef Id="539203744"/>
-								<MediaRef Id="931020013"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="2782712965" Id="3705726509"/>
-							<MediaRefs>
-								<MediaRef Id="982778482"/>
-							</MediaRefs>
-						</SwitchContainer>
-						<SwitchContainer>
-							<SwitchValue GroupType="State" GroupId="2782712965" Id="748895195"/>
-							<MediaRefs>
-								<MediaRef Id="982778482"/>
-							</MediaRefs>
-						</SwitchContainer>
-					</SwitchContainers>
-					<ActionSetState>
-						<ActionSetStateEntry GroupId="2782712965" Id="3705726509" Name="Title"/>
-					</ActionSetState>
+					<MediaRefs>
+						<MediaRef Id="982778482"/>
+					</MediaRefs>
 					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="4143496951" Id="2678230382" Name="Level1"/>
 						<ActionSetSwitchEntry GroupId="2654366170" Id="3881926874" Name="Early"/>
 					</ActionSetSwitch>
 				</Event>
-				<Event Id="270303946" Name="Events_Game_Start" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="1004455760"/>
-						<MediaRef Id="1020072390"/>
-					</MediaRefs>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="2891024992" Name="Events_Levels_Area1_Start"/>
-					</ActionPostEvent>
-					<ActionSetState>
-						<ActionSetStateEntry GroupId="2782712965" Id="629923843" Name="Area1"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="2891024992" Name="Events_Levels_Area1_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<ActionSetState>
-						<ActionSetStateEntry GroupId="2782712965" Id="629923843" Name="Area1"/>
-					</ActionSetState>
-				</Event>
 			</Events>
-			<StateGroups>
-				<StateGroup Id="2782712965" Name="Level">
-					<States>
-						<State Id="629923840" Name="Area2"/>
-						<State Id="629923843" Name="Area1"/>
-						<State Id="748895195" Name="None"/>
-						<State Id="3705726509" Name="Title"/>
-					</States>
-				</StateGroup>
-			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="2654366170" Name="Time">
 					<Switches>
@@ -220,34 +241,16 @@
 						<Switch Id="3881926874" Name="Early"/>
 					</Switches>
 				</SwitchGroup>
+				<SwitchGroup Id="4143496951" Name="Anxiety">
+					<Switches>
+						<Switch Id="2678230379" Name="Level4"/>
+						<Switch Id="2678230380" Name="Level3"/>
+						<Switch Id="2678230381" Name="Level2"/>
+						<Switch Id="2678230382" Name="Level1"/>
+					</Switches>
+				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3686139462" Type="User" Language="SFX" Hash="{7256C61D-5B94-C7C4-9593-2EA05CF1EFE2}">
-			<ShortName>Area</ShortName>
-			<Path>Area.bnk</Path>
-			<Events>
-				<Event Id="2891024992" Name="Events_Levels_Area1_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<ActionSetState>
-						<ActionSetStateEntry GroupId="2782712965" Id="629923843" Name="Area1"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="2811708267" Name="Events_Levels_Area2_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<ActionSetState>
-						<ActionSetStateEntry GroupId="2782712965" Id="629923840" Name="Area2"/>
-					</ActionSetState>
-				</Event>
-			</Events>
-			<StateGroups>
-				<StateGroup Id="2782712965" Name="Level">
-					<States>
-						<State Id="629923840" Name="Area2"/>
-						<State Id="629923843" Name="Area1"/>
-						<State Id="748895195" Name="None"/>
-						<State Id="3705726509" Name="Title"/>
-					</States>
-				</StateGroup>
-			</StateGroups>
-		</SoundBank>
 	</SoundBanks>
-	<FileHash>{46052C04-65F7-4F01-886E-119FE1B1A68B}</FileHash>
+	<FileHash>{6F45F9C7-6B14-D0C6-4E02-570E83158A95}</FileHash>
 </SoundBanksInfo>

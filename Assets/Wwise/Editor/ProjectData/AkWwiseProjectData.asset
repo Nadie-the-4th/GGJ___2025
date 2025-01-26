@@ -206,11 +206,11 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 358577ec1a2f6f42b0e9480342750074
     GuidInternal: 
-    m_lastTime: -8584637249781056126
+    m_lastTime: -8584636905186364710
     List:
-    - name: Area
+    - name: Areas
       guid: f0188c45458e35488f9defa94a75e7ef
-      id: 3686139462
+      id: 629923905
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -218,10 +218,24 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 358577ec1a2f6f42b0e9480342750074
-      - ElementName: Area
+      - ElementName: Areas
         ObjectType: 7
         guid: f0188c45458e35488f9defa94a75e7ef
-      Path: SoundBanks/Default Work Unit/Area
+      Path: SoundBanks/Default Work Unit/Areas
+    - name: MainMenu
+      guid: d666bc8f5c83fd4f892feb9dfb110c91
+      id: 3604647259
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 358577ec1a2f6f42b0e9480342750074
+      - ElementName: MainMenu
+        ObjectType: 7
+        guid: d666bc8f5c83fd4f892feb9dfb110c91
+      Path: SoundBanks/Default Work Unit/MainMenu
     - name: Player
       guid: ed9ababfaaef3c4ba037139e9c1b6a44
       id: 1069431850
@@ -236,20 +250,6 @@ MonoBehaviour:
         ObjectType: 7
         guid: ed9ababfaaef3c4ba037139e9c1b6a44
       Path: SoundBanks/Default Work Unit/Player
-    - name: UI
-      guid: d666bc8f5c83fd4f892feb9dfb110c91
-      id: 1551306167
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 358577ec1a2f6f42b0e9480342750074
-      - ElementName: UI
-        ObjectType: 7
-        guid: d666bc8f5c83fd4f892feb9dfb110c91
-      Path: SoundBanks/Default Work Unit/UI
   EventWwu:
   - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
@@ -262,7 +262,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: d9411f7d32525344902aa1f103558772
     GuidInternal: 
-    m_lastTime: -8584636948505954550
+    m_lastTime: -8584636904332271389
     List:
     - name: Area1
       guid: 4bc68b267b0e1d41981066eed9d1eba5
@@ -448,8 +448,8 @@ MonoBehaviour:
         guid: 85bf750efe044943820ee3e1aa38166c
       Path: Events/Default Work Unit/SFX/Player/Events_SFX_Player_Death
       maxAttenuation: 100
-      maxDuration: 6.7396665
-      minDuration: 6.7396665
+      maxDuration: 5.571417
+      minDuration: 5.571417
     - name: Events_SFX_Player_Movement_Moving
       guid: 3ffbc01b69f31746b1503a0ddf4c0af9
       id: 512427451
@@ -664,7 +664,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 5c4c21b049bcca478c2f4a6affdd53a1
     GuidInternal: 
-    m_lastTime: -8584637580695149497
+    m_lastTime: -8584636904477315761
     List:
     - name: Level
       guid: 3ed97a61caf12c47b7fcc15fbafebce3
@@ -729,22 +729,6 @@ MonoBehaviour:
         - ElementName: None
           ObjectType: 8
           guid: 3a14bbe4831f0a498cc2de1037556a0b
-      - name: Title
-        guid: 107eade9f9fbaa4daf2a6712891c12ad
-        id: 3705726509
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 5c4c21b049bcca478c2f4a6affdd53a1
-        - ElementName: Level
-          ObjectType: 9
-          guid: 3ed97a61caf12c47b7fcc15fbafebce3
-        - ElementName: Title
-          ObjectType: 8
-          guid: 107eade9f9fbaa4daf2a6712891c12ad
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []

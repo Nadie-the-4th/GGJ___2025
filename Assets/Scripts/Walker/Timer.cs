@@ -12,7 +12,6 @@ public class Timer : MonoBehaviour
     public bool timesUp;
     public GameObject playerAnim;
     public Animator animate;
-    public GameObject fullPlayer;
     public GameObject locator;
     public GameObject playerControl;
 
@@ -24,7 +23,7 @@ public class Timer : MonoBehaviour
 
 
         locator = GameObject.FindWithTag("Locator");
-        timeValue = 300;
+        timeValue = 10;
         timesUp = false;
         playerControl.GetComponent<playerController>();
     }

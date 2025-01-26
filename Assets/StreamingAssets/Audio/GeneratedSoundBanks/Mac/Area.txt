@@ -1,4 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2811708267	Events_Levels_Area2_Start			\Default Work Unit\Levels\Area2\Events_Levels_Area2_Start	
-	2891024992	Events_Levels_Area1_Start			\Default Work Unit\Levels\Area1\Events_Levels_Area1_Start	
-
