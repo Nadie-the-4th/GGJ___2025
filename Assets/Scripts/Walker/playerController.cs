@@ -36,7 +36,7 @@ public class playerController : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("k"))
         {
             playerRb.AddForce(transform.right * moveForce);
             animator.SetTrigger("Push");
@@ -77,9 +77,6 @@ public class playerController : MonoBehaviour
         }
     }
 
-    public void BubblePop()
-    {
-        Destroy(playerSprite);
-    }
+  
 
 }
