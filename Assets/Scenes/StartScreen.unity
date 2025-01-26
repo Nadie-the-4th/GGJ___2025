@@ -1144,7 +1144,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Use "y" and "b" to set rotation
 
-    Press "space" to push the bubble'
+    Press "k" to push the bubble'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b9b9509f68a53491e9dc9552685bd6a9, type: 2}
   m_sharedMaterial: {fileID: 8583602619508591038, guid: b9b9509f68a53491e9dc9552685bd6a9, type: 2}
