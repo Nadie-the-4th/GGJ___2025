@@ -44,11 +44,11 @@ public class coroutine : MonoBehaviour
         Debug.Log("Fading the camera!");
         
 
-        yield return new WaitForSeconds(40f);
+        yield return new WaitForSeconds(50f);
         Debug.Log("awkwarddddd");
         Dialogue.StartDialogue(Questionnode);
 
-        yield return new WaitForSeconds(60f);
+        yield return new WaitForSeconds(70f);
         Debug.Log("20 seconds before death :3");
         Dialogue.StartDialogue(Tensecnode);
 

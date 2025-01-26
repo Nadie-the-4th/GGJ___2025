@@ -13,6 +13,7 @@ public class Restart : MonoBehaviour
     void Start()
     {
         player = GameObject.FindWithTag("Bubble");
+        playerControl.GetComponent<playerController>();
     }
 
     public void BacktoMain()
