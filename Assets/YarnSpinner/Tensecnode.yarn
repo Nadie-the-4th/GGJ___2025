@@ -3,31 +3,20 @@ tags: Tensecnode
 ---
 <<Ten Player>>
 
-You: Hate to cut it short, but you got about ten seconds left.
+You: Hate to cut it short, but you got about twenty seconds left.
 
+Bubble: What?!
 
+You: I'm surprised you made it this far, most bubbles pop in the first ten seconds.
 
-if stress = 1
+Bubble: So it's really over...
 
-...I understand. Thank you for helping me through this nightmare.
+You: I'm so sorry.
+
+Bubble:...I understand. Thank you for helping me through this nightmare.
 
 You: It's been an honor. Do you have any final words?
 
-if stress = 2 
-
-Oh fuck. Okay, that's fine! thats fine!!!!!
-
-You: You got this bro. I believe in you.
-You: Any last words?
-
-if stress = 3
-
-OH GOD. OH NO. I CAN'T DIE! I'M NOT READY! ....lets do it.
-You: That's the spirit, go forward even in fear. Last words?
-
-if stress = 4
-
-NO NO NO NO NO! I NEED MORE TIME! WHY DON'T I HAVE MORE TIME?!!!
-You: I'm sorry! There's nothing I can do!!! I'll never make a bubble again!
+Bubble: ...it's been real.
 ===
  
