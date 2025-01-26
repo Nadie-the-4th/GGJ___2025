@@ -8,17 +8,15 @@ using Yarn.Unity;
 public class coroutine : MonoBehaviour
 {
 
-    [YarnCommand("jump")]
-    public void Jump() 
-    {
-        print("its working!");
-        Debug.Log("Jumping!");
-    }
+
+
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(TimedDialogue());
     }
+
+
 
     public string Beginnode;
     [SerializeField] DialogueRunner Dialogue;
@@ -42,22 +40,25 @@ public class coroutine : MonoBehaviour
 
     private IEnumerator TimedDialogue()
     {
+        
         yield return new WaitForSeconds(2f);
         Debug.Log("Hello World");
         Dialogue.StartDialogue(Beginnode);
+        Debug.Log("Fading the camera!");
+        
 
 
-        yield return new WaitForSeconds(145f);
+        yield return new WaitForSeconds(20f);
         Debug.Log("awkwarddddd");
         Dialogue.StartDialogue(Questionnode);
 
-        yield return new WaitForSeconds(290f);
+        yield return new WaitForSeconds(40f);
         Debug.Log("10 seconds before death :3");
         Dialogue.StartDialogue(Tensecnode);
 
-        yield return new WaitForSeconds(300f);
-        Debug.Log("so long, bubble...");
-        Dialogue.StartDialogue(Deathnode);
+        // yield return new WaitForSeconds(300f);
+        // Debug.Log("so long, bubble...");
+        // Dialogue.StartDialogue(Deathnode);
 
         
     }
