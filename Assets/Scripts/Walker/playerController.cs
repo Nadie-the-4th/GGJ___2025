@@ -11,18 +11,30 @@ public class playerController : MonoBehaviour
     private Vector2 velocity;
     public float bounceForce;
     public GameObject playerSprite;
-    Animator animator;
+    public GameObject animateCharacter;
+    public Animator animator;
+
 
     // Start is called before the first frame update
+    private void Awake()
+    {
+        Instantiate(playerSprite, this.transform);
+    }
+
     void Start()
     {
         playerRb = GetComponent<Rigidbody2D>();
-        animator = playerSprite.GetComponent<Animator>();
+        
+        animateCharacter = GameObject.FindWithTag("Bubble");
+
+
+        animator = animateCharacter.GetComponent<Animator>();
 
         velocity = new Vector2(0.25f, 0f);
 
-        
-        
+       
+
+
 
     }
 

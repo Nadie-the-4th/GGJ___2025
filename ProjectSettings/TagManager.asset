@@ -8,6 +8,7 @@ TagManager:
   - Area1
   - Area2
   - Area3
+  - Bubble
   layers:
   - Default
   - TransparentFX

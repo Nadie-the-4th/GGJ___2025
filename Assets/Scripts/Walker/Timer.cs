@@ -19,8 +19,12 @@ public class Timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animate = playerAnim.GetComponent<Animator>();
-        timeValue = 10;
+        playerAnim = GameObject.FindWithTag("Bubble");
+        animate = playerAnim.GetComponentInChildren<Animator>();
+
+
+        locator = GameObject.FindWithTag("Locator");
+        timeValue = 300;
         timesUp = false;
         playerControl.GetComponent<playerController>();
     }
@@ -87,7 +91,8 @@ public class Timer : MonoBehaviour
         yield return new WaitForSeconds(1);
 
         //After we have waited 5 seconds print the time again.
-        Destroy(fullPlayer);
+        Destroy(playerAnim);
+        Debug.Log("Player Destroyed");
       
     }
 }
