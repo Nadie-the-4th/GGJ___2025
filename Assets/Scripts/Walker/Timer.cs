@@ -12,7 +12,8 @@ public class Timer : MonoBehaviour
     public bool timesUp;
     public GameObject playerAnim;
     public Animator animate;
-   
+    public GameObject fullPlayer;
+    public GameObject locator;
 
     // Start is called before the first frame update
     void Start()
@@ -60,8 +61,9 @@ public class Timer : MonoBehaviour
 
     public void BubblePop()
     {
-        
+        Destroy(locator);
         StartCoroutine(ExampleCoroutine());
+       
     }
 
 
@@ -74,7 +76,7 @@ public class Timer : MonoBehaviour
         yield return new WaitForSeconds(1);
 
         //After we have waited 5 seconds print the time again.
-        Destroy(playerAnim);
-        Debug.Log("Bubble  Popped: " + Time.time);
+        Destroy(fullPlayer);
+      
     }
 }
