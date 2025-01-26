@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID EVENTS_GAME_MAINMENU = 1634477928U;
+        static const AkUniqueID EVENTS_GAME_RESTART = 2575434475U;
         static const AkUniqueID EVENTS_GAME_START = 270303946U;
         static const AkUniqueID EVENTS_LEVELS_AREA1_START = 2891024992U;
         static const AkUniqueID EVENTS_LEVELS_AREA2_START = 2811708267U;
