@@ -1,8 +1,8 @@
 ﻿title: Questionnode
 tags: Questionnode
 ---
-<<Question Player>>
-Bubble: hey, spooky voice? I have a question.
+<<Question>>
+Bubble: hey, spooky crater guy? I have a question.
 
 You: What is it?
 
@@ -23,11 +23,22 @@ You: Yes. Your life will end soon, but...
     -> it's going to be okay. Enjoy the rest of the precious time you have here.
 
 
+Bubble: Ok, that... really sucks.
+You: Yeah, and by my estimate, you have about 30 seconds left. 
+Bubble: What?!
 
-    -> there's nothing you can do to stop it. I'm sorry.
+You: I'm surprised you made it this far, most bubbles pop in the first ten seconds.
 
+Bubble: So it's really over...
 
+You: I'm so sorry.
+
+Bubble:...I understand. Thank you for helping me through this nightmare.
+
+You: It's been an honor. Do you have any final words?
+
+Bubble: ...it's been real.
+You: Well said.
 ===
-
 
 
