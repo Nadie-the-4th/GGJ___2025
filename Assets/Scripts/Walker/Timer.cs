@@ -27,6 +27,7 @@ public class Timer : MonoBehaviour
         if(timeValue > 0)
         {
             timeValue -= Time.deltaTime; //minus the duration of the last frame
+            timesUp = false;
         }
 
         else
