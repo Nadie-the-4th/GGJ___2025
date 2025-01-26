@@ -1,7 +1,7 @@
 ﻿title: Questionnode
 tags: Questionnode
 ---
-<<Question>>
+<<Question Player>>
 Bubble: hey, spooky voice? I have a question.
 
 You: What is it?
@@ -21,6 +21,23 @@ Bubble: Tell the truth. I trust you.
 You: Yes. Your life will end soon, but...
 
     -> it's going to be okay. Enjoy the rest of the precious time you have here.
-    -> there's nothing you can do to stop it. Sorry.
+<<jump to calm>>
+
+
+    -> there's nothing you can do to stop it. I'm sorry.
+<<jump to stress>>
+
+===
+
+
+title: calm
+---
+
+===
+
+
+
+title: stress
+---
 
 ===
