@@ -1,0 +1,22 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2782712965	Level			\Default Work Unit\Level	
+
+State	ID	Name	State Group			Notes
+	629923840	Area2	Level			
+	629923843	Area1	Level			
+	748895195	None	Level			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1229948536	Environment			\Default Work Unit\Master Audio Bus\SFX\Environment	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX\UI	
+	1870080928	BG			\Default Work Unit\Master Audio Bus\SFX\Environment\BG	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3965983837	EnvironmentSFX			\Default Work Unit\Master Audio Bus\SFX\Environment\EnvironmentSFX	
+	3991942870	MUSIC			\Default Work Unit\Master Audio Bus\MUSIC	
+	4283257371	PlayerSFX			\Default Work Unit\Master Audio Bus\SFX\PlayerSFX	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

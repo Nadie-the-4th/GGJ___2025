@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1634477928	Events_Game_MainMenu			\Default Work Unit\Events_Game_MainMenu	
+	2575434475	Events_Game_Restart			\Default Work Unit\Events_Game_Restart	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	982778482	Music_Title	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Music_Title_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\TitleMusic\Music_Title\Music_Title		20430624

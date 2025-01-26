@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: 8e72a88f0d11604fa8c66a266e6dfedc
     GuidInternal: 
-    m_lastTime: -8584637580694259475
+    m_lastTime: -8584636814413695007
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 22d96f0cd7261f4d868e5973d7a48a86
     GuidInternal: 
-    m_lastTime: -8584637580695105985
+    m_lastTime: -8584636814414390286
     List:
     - name: BG
       guid: c3ab3f9d634b32439073fa5456fcec02
@@ -206,7 +206,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 358577ec1a2f6f42b0e9480342750074
     GuidInternal: 
-    m_lastTime: -8584636905186364710
+    m_lastTime: -8584636814414300123
     List:
     - name: Areas
       guid: f0188c45458e35488f9defa94a75e7ef
@@ -262,7 +262,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: d9411f7d32525344902aa1f103558772
     GuidInternal: 
-    m_lastTime: -8584636904332271389
+    m_lastTime: -8584636814414363222
     List:
     - name: Area1
       guid: 4bc68b267b0e1d41981066eed9d1eba5
@@ -341,6 +341,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Events_Game_Restart
+      guid: d0e19540d1f9234e9ebb546a8dfe33c6
+      id: 2575434475
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d9411f7d32525344902aa1f103558772
+      - ElementName: Events_Game_Restart
+        ObjectType: 3
+        guid: d0e19540d1f9234e9ebb546a8dfe33c6
+      Path: Events/Default Work Unit/Events_Game_Restart
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Events_Game_Start
       guid: 5ac4432ba616ac4aa35a4bd18adad83c
       id: 270303946
@@ -404,6 +421,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Events_SFX_Player_10Secs
+      guid: 41184b06041c24468590bdfa325a3abc
+      id: 2152851392
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d9411f7d32525344902aa1f103558772
+      - ElementName: SFX
+        ObjectType: 4
+        guid: aa74440f51765d4992c274b9c305e178
+      - ElementName: Player
+        ObjectType: 4
+        guid: e8eaac7d85c9434ebdb2414f9f1dbd31
+      - ElementName: Events_SFX_Player_10Secs
+        ObjectType: 3
+        guid: 41184b06041c24468590bdfa325a3abc
+      Path: Events/Default Work Unit/SFX/Player/Events_SFX_Player_10Secs
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Events_SFX_Player_Border
       guid: fe9c6c9b1cea2f429d3f8693877faee9
       id: 306606743
@@ -476,6 +516,29 @@ MonoBehaviour:
       maxAttenuation: 100
       maxDuration: 2.1504693
       minDuration: 1.7068285
+    - name: Events_SFX_Player_Question
+      guid: 4d6e87b10b485b4a80bd08496956bb83
+      id: 4049649869
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d9411f7d32525344902aa1f103558772
+      - ElementName: SFX
+        ObjectType: 4
+        guid: aa74440f51765d4992c274b9c305e178
+      - ElementName: Player
+        ObjectType: 4
+        guid: e8eaac7d85c9434ebdb2414f9f1dbd31
+      - ElementName: Events_SFX_Player_Question
+        ObjectType: 3
+        guid: 4d6e87b10b485b4a80bd08496956bb83
+      Path: Events/Default Work Unit/SFX/Player/Events_SFX_Player_Question
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Levels
       guid: f04faf0e5a504649a05591728c8ff9c6
       id: 2678230316
@@ -608,7 +671,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 942e7dc0cbc97f448adc2350497ba052
     GuidInternal: 
-    m_lastTime: -8584637580694698846
+    m_lastTime: -8584636814414274357
     List:
     - name: Distance
       guid: ba472c38178b2643a0aead124293fcc3
@@ -664,7 +727,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 5c4c21b049bcca478c2f4a6affdd53a1
     GuidInternal: 
-    m_lastTime: -8584636904477315761
+    m_lastTime: -8584636814414329874
     List:
     - name: Level
       guid: 3ed97a61caf12c47b7fcc15fbafebce3
@@ -744,7 +807,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 294821fef07e8a44ad974d5429733e9e
     GuidInternal: 
-    m_lastTime: -8584637263578268438
+    m_lastTime: -8584636814414628515
     List:
     - name: Anxiety
       guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
@@ -906,7 +969,7 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: dc1387c994b7c74ea75db5f07b6e92fa
     GuidInternal: 
-    m_lastTime: -8584637580694348409
+    m_lastTime: -8584636814413853234
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 0d0000000e0000000f000000

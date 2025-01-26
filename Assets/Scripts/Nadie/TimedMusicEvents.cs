@@ -34,6 +34,7 @@ public class TimedMusicEvents : MonoBehaviour
 
        public void Tensecnode() 
     {
+        AkSoundEngine.PostEvent("Events_SFX_Player_10Secs", playerControl);
         Debug.Log("Ten works!");        
 
     }

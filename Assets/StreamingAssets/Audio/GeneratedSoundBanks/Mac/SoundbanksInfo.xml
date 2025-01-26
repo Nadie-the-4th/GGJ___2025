@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="629923905" Type="User" Language="SFX" Hash="{DD3C9D55-F957-FAB6-543A-2897B7D01BC2}">
+		<SoundBank Id="629923905" Type="User" Language="SFX" Hash="{45B2CCC1-DF46-704D-64BF-8A133FCB4991}">
 			<ShortName>Areas</ShortName>
 			<Path>Areas.bnk</Path>
 			<Media>
@@ -41,10 +41,6 @@
 					<ShortName>Piece1_Layer0.wav</ShortName>
 					<CachePath>SFX/Piece1_Layer0_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="982778482" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Music_Title.wav</ShortName>
-					<CachePath>SFX/Music_Title_FBC78EF0.wem</CachePath>
-				</File>
 				<File Id="1004455760" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Player_Movement_Idle.wav</ShortName>
 					<CachePath>SFX/SFX_Player_Movement_Idle_FBC78EF0.wem</CachePath>
@@ -59,20 +55,6 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="1634477928" Name="Events_Game_MainMenu" DurationType="Infinite">
-					<MediaRefs>
-						<MediaRef Id="982778482"/>
-					</MediaRefs>
-					<ActionSetSwitch>
-						<ActionSetSwitchEntry GroupId="4143496951" Id="2678230382" Name="Level1"/>
-						<ActionSetSwitchEntry GroupId="2654366170" Id="3881926874" Name="Early"/>
-					</ActionSetSwitch>
-				</Event>
-				<Event Id="2575434475" Name="Events_Game_Restart" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="1634477928" Name="Events_Game_MainMenu"/>
-					</ActionPostEvent>
-				</Event>
 				<Event Id="270303946" Name="Events_Game_Start" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="1004455760"/>
@@ -231,7 +213,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3604647259" Type="User" Language="SFX" Hash="{61FBC549-5B6C-6079-958B-6DEAC7FCC9B3}">
+		<SoundBank Id="3604647259" Type="User" Language="SFX" Hash="{C1B9FB41-FBAD-ADFD-E407-72AE672C2A45}">
 			<ShortName>MainMenu</ShortName>
 			<Path>MainMenu.bnk</Path>
 			<Media>
@@ -249,6 +231,11 @@
 						<ActionSetSwitchEntry GroupId="4143496951" Id="2678230382" Name="Level1"/>
 						<ActionSetSwitchEntry GroupId="2654366170" Id="3881926874" Name="Early"/>
 					</ActionSetSwitch>
+				</Event>
+				<Event Id="2575434475" Name="Events_Game_Restart" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1634477928" Name="Events_Game_MainMenu"/>
+					</ActionPostEvent>
 				</Event>
 			</Events>
 			<SwitchGroups>
@@ -270,5 +257,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D1157E7D-1048-CBF3-233F-7BF2B53B33D8}</FileHash>
+	<FileHash>{5CEDEBCD-D658-5CF3-34C7-A49BFB3CBEB8}</FileHash>
 </SoundBanksInfo>

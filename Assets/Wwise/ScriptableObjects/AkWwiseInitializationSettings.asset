@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlatformSettingsNameList:
   - Mac
+  - Windows
   PlatformSettingsList:
   - {fileID: 11400000, guid: 772b17d67b6844442b02c983f031775c, type: 2}
+  - {fileID: 11400000, guid: d571f818e460c43d497375ede0e546f6, type: 2}
   InvalidReferencePlatforms: []
   UserSettings:
     m_BasePath: Audio/GeneratedSoundBanks
