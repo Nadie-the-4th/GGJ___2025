@@ -18,6 +18,8 @@ namespace AK
         static const AkUniqueID EVENTS_LEVELS_AREA1_START = 2891024992U;
         static const AkUniqueID EVENTS_LEVELS_AREA2_START = 2811708267U;
         static const AkUniqueID EVENTS_SFX_PLAYER_BORDER = 306606743U;
+        static const AkUniqueID EVENTS_SFX_PLAYER_DEATH = 2387132205U;
+        static const AkUniqueID EVENTS_SFX_PLAYER_MOVEMENT_MOVING = 512427451U;
     } // namespace EVENTS
 
     namespace STATES
@@ -51,17 +53,6 @@ namespace AK
                 static const AkUniqueID LEVEL4 = 2678230379U;
             } // namespace SWITCH
         } // namespace ANXIETY
-
-        namespace MOVEMENT
-        {
-            static const AkUniqueID GROUP = 2129636626U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID IDLE = 1874288895U;
-                static const AkUniqueID MOVING = 2649703675U;
-            } // namespace SWITCH
-        } // namespace MOVEMENT
 
         namespace TIME
         {

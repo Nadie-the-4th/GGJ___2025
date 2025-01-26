@@ -40,6 +40,7 @@ public class playerController : MonoBehaviour
         {
             playerRb.AddForce(transform.right * moveForce);
             animator.SetTrigger("Push");
+            AkSoundEngine.PostEvent("Events_SFX_Player_Movement_Moving", this.gameObject);
         }
     }
 

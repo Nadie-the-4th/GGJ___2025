@@ -35,6 +35,7 @@ public class Timer : MonoBehaviour
             timeValue = 0;
             timesUp = true;
             animate.SetBool("TimeUp", true);
+            AkSoundEngine.PostEvent("Events_SFX_Player_Death", this.gameObject); 
         }
 
         displayTime(timeValue);

@@ -206,7 +206,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 358577ec1a2f6f42b0e9480342750074
     GuidInternal: 
-    m_lastTime: -8584637580694911689
+    m_lastTime: -8584637249781056126
     List:
     - name: Area
       guid: f0188c45458e35488f9defa94a75e7ef
@@ -262,7 +262,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: d9411f7d32525344902aa1f103558772
     GuidInternal: 
-    m_lastTime: -8584637371837310160
+    m_lastTime: -8584637249781146775
     List:
     - name: Area1
       guid: 4bc68b267b0e1d41981066eed9d1eba5
@@ -404,6 +404,78 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Events_SFX_Player_Border
+      guid: fe9c6c9b1cea2f429d3f8693877faee9
+      id: 306606743
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d9411f7d32525344902aa1f103558772
+      - ElementName: SFX
+        ObjectType: 4
+        guid: aa74440f51765d4992c274b9c305e178
+      - ElementName: Player
+        ObjectType: 4
+        guid: e8eaac7d85c9434ebdb2414f9f1dbd31
+      - ElementName: Events_SFX_Player_Border
+        ObjectType: 3
+        guid: fe9c6c9b1cea2f429d3f8693877faee9
+      Path: Events/Default Work Unit/SFX/Player/Events_SFX_Player_Border
+      maxAttenuation: 100
+      maxDuration: 5.693908
+      minDuration: 5.072695
+    - name: Events_SFX_Player_Death
+      guid: 85bf750efe044943820ee3e1aa38166c
+      id: 2387132205
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d9411f7d32525344902aa1f103558772
+      - ElementName: SFX
+        ObjectType: 4
+        guid: aa74440f51765d4992c274b9c305e178
+      - ElementName: Player
+        ObjectType: 4
+        guid: e8eaac7d85c9434ebdb2414f9f1dbd31
+      - ElementName: Events_SFX_Player_Death
+        ObjectType: 3
+        guid: 85bf750efe044943820ee3e1aa38166c
+      Path: Events/Default Work Unit/SFX/Player/Events_SFX_Player_Death
+      maxAttenuation: 100
+      maxDuration: 6.7396665
+      minDuration: 6.7396665
+    - name: Events_SFX_Player_Movement_Moving
+      guid: 3ffbc01b69f31746b1503a0ddf4c0af9
+      id: 512427451
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d9411f7d32525344902aa1f103558772
+      - ElementName: SFX
+        ObjectType: 4
+        guid: aa74440f51765d4992c274b9c305e178
+      - ElementName: Player
+        ObjectType: 4
+        guid: e8eaac7d85c9434ebdb2414f9f1dbd31
+      - ElementName: Movement
+        ObjectType: 4
+        guid: 0bbe3b0cb7b28d4484f7a77b61d67d21
+      - ElementName: Events_SFX_Player_Movement_Moving
+        ObjectType: 3
+        guid: 3ffbc01b69f31746b1503a0ddf4c0af9
+      Path: Events/Default Work Unit/SFX/Player/Movement/Events_SFX_Player_Movement_Moving
+      maxAttenuation: 100
+      maxDuration: 2.1504693
+      minDuration: 1.7068285
     - name: Levels
       guid: f04faf0e5a504649a05591728c8ff9c6
       id: 2678230316
@@ -688,7 +760,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 294821fef07e8a44ad974d5429733e9e
     GuidInternal: 
-    m_lastTime: -8584637412830542291
+    m_lastTime: -8584637263578268438
     List:
     - name: Anxiety
       guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
@@ -769,56 +841,6 @@ MonoBehaviour:
         - ElementName: Level4
           ObjectType: 10
           guid: e55f494144ed4e4b858903e42b9b4d76
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
-    - name: Movement
-      guid: 401729007ec74947a76f628b690bf816
-      id: 2129636626
-      PathAndIcons:
-      - ElementName: Switches
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 294821fef07e8a44ad974d5429733e9e
-      - ElementName: Movement
-        ObjectType: 11
-        guid: 401729007ec74947a76f628b690bf816
-      Path: Switches/Default Work Unit/Movement
-      values:
-      - name: Idle
-        guid: 6caf765128047048b54a7ee51ec0b9fa
-        id: 1874288895
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 294821fef07e8a44ad974d5429733e9e
-        - ElementName: Movement
-          ObjectType: 11
-          guid: 401729007ec74947a76f628b690bf816
-        - ElementName: Idle
-          ObjectType: 10
-          guid: 6caf765128047048b54a7ee51ec0b9fa
-      - name: Moving
-        guid: 248a3782be092640b63fd49eb92ffad5
-        id: 2649703675
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 294821fef07e8a44ad974d5429733e9e
-        - ElementName: Movement
-          ObjectType: 11
-          guid: 401729007ec74947a76f628b690bf816
-        - ElementName: Moving
-          ObjectType: 10
-          guid: 248a3782be092640b63fd49eb92ffad5
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
