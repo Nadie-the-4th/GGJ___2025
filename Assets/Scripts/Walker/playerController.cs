@@ -46,11 +46,26 @@ public class playerController : MonoBehaviour
         }
     }
 
-    //if we decide to wrap the world
-    //void OnTriggerEnter2D(Collider2D col)
-    //{
-    //    Debug.Log("hit wall!!");
-    //    playerRb.AddForce(transform.right * -moveForce);
-    //}
+    //AUDIO TRIGGERS
+    void OnTriggerEnter2D(Collider2D col)
+    {
+        //AREA ONE
+        if (col.gameObject.CompareTag("Area1"))
+        {
+            Debug.Log("Area1 Boundary");
+        }
+
+        //AREA TWO
+        else if (col.gameObject.CompareTag("Area2"))
+        {
+            Debug.Log("Area2 Boundary");
+        }
+
+        //AREA THREE
+        else if (col.gameObject.CompareTag("Area3"))
+        {
+            Debug.Log("Area3 Boundary");
+        }
+    }
 
 }
