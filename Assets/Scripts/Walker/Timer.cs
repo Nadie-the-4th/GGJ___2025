@@ -15,6 +15,8 @@ public class Timer : MonoBehaviour
     public GameObject locator;
     public GameObject playerControl;
 
+    private bool hasTriggeredQuestionDialogue = false;
+    private bool hasTriggered10Seconds = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,17 +28,38 @@ public class Timer : MonoBehaviour
         timeValue = 120;
         timesUp = false;
         playerControl.GetComponent<playerController>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(timeValue > 0)
+        if (timeValue <= 60 && !hasTriggeredQuestionDialogue)
+        {
+
+            playerControl.GetComponent<playerController>();
+            AkSoundEngine.PostEvent("Events_SFX_Player_Question", playerControl);
+            Debug.Log("60 seconds nooo");
+
+
+            hasTriggeredQuestionDialogue = true;
+            
+        }
+
+        if (timeValue <= 30 && !!hasTriggered10Seconds)
+        {
+            AkSoundEngine.PostEvent("Events_SFX_Player_10Secs", playerControl);
+            Debug.Log("30 seconds NOOOO");
+            hasTriggered10Seconds = true;
+        }
+
+        if (timeValue > 0)
         {
             timeValue -= Time.deltaTime; //minus the duration of the last frame
             timesUp = false;
-        }
+            
 
+        }
         else
         {
             timeValue = 0;
@@ -44,10 +67,6 @@ public class Timer : MonoBehaviour
             animate.SetBool("TimeUp", true);
             BubblePop();
 
-            timeValue = 60;
-            AkSoundEngine.PostEvent("Events_SFX_Player_Question", playerControl);
-            timeValue = 20;
-            AkSoundEngine.PostEvent("Events_SFX_Player_10Secs", playerControl);
 
             timeValue = 1;
             AkSoundEngine.PostEvent("Events_SFX_Player_Death", playerControl);
@@ -55,6 +74,7 @@ public class Timer : MonoBehaviour
 
 
         }
+       
         
 
         displayTime(timeValue);
@@ -75,6 +95,16 @@ public class Timer : MonoBehaviour
 
     }
 
+    public class TriggerQuestion : AkTriggerBase
+    {
+        void Question()
+        {
+            if (triggerDelegate != null)
+            {
+                triggerDelegate(null);
+            }
+        }
+    }
     public void BubblePop()
     {
         

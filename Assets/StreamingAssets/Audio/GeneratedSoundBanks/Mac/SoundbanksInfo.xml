@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="629923905" Type="User" Language="SFX" Hash="{45B2CCC1-DF46-704D-64BF-8A133FCB4991}">
+		<SoundBank Id="629923905" Type="User" Language="SFX" Hash="{112E6C5A-7769-F0C3-F05A-AE0317A0954D}">
 			<ShortName>Areas</ShortName>
 			<Path>Areas.bnk</Path>
 			<Media>
@@ -129,7 +129,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{D08FFBFD-673A-C15F-6A2B-8FA8B9E9DF4C}">
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{54D30417-F04A-64AC-F38A-3B0DD2D04854}">
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<Media>
@@ -147,6 +147,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2152851392" Name="Events_SFX_Player_10Secs" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="2654366170" Id="529726532" Name="End"/>
+					</ActionSetSwitch>
+				</Event>
 				<Event Id="306606743" Name="Events_SFX_Player_Border" MaxAttenuation="100" DurationType="OneShot" DurationMin="5.072695" DurationMax="5.693908">
 					<MediaRefs>
 						<MediaRef Id="263065244"/>
@@ -162,7 +167,21 @@
 						<MediaRef Id="377985535"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4049649869" Name="Events_SFX_Player_Question" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry GroupId="2654366170" Id="1182670505" Name="Mid"/>
+					</ActionSetSwitch>
+				</Event>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2654366170" Name="Time">
+					<Switches>
+						<Switch Id="529726532" Name="End"/>
+						<Switch Id="1182670505" Name="Mid"/>
+						<Switch Id="3881926874" Name="Early"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6173F2BC-7C5A-2269-05FA-6406CF53EDDA}">
 			<ShortName>Init</ShortName>
@@ -213,7 +232,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3604647259" Type="User" Language="SFX" Hash="{C1B9FB41-FBAD-ADFD-E407-72AE672C2A45}">
+		<SoundBank Id="3604647259" Type="User" Language="SFX" Hash="{A51B6B72-9530-5D4B-9D35-23E324A51FE8}">
 			<ShortName>MainMenu</ShortName>
 			<Path>MainMenu.bnk</Path>
 			<Media>
@@ -232,6 +251,7 @@
 						<ActionSetSwitchEntry GroupId="2654366170" Id="3881926874" Name="Early"/>
 					</ActionSetSwitch>
 				</Event>
+				<Event Id="4256411207" Name="Events_Game_MainMenu_Stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2575434475" Name="Events_Game_Restart" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="1634477928" Name="Events_Game_MainMenu"/>
@@ -257,5 +277,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{5CEDEBCD-D658-5CF3-34C7-A49BFB3CBEB8}</FileHash>
+	<FileHash>{1280BD3C-5133-0C14-E1CF-EE53C08EF070}</FileHash>
 </SoundBanksInfo>

@@ -206,7 +206,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 358577ec1a2f6f42b0e9480342750074
     GuidInternal: 
-    m_lastTime: -8584636814414300123
+    m_lastTime: -8584636074054688615
     List:
     - name: Areas
       guid: f0188c45458e35488f9defa94a75e7ef
@@ -262,7 +262,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: d9411f7d32525344902aa1f103558772
     GuidInternal: 
-    m_lastTime: -8584636814414363222
+    m_lastTime: -8584635943844548422
     List:
     - name: Area1
       guid: 4bc68b267b0e1d41981066eed9d1eba5
@@ -341,6 +341,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Events_Game_MainMenu_Stop
+      guid: 661868d531bc7f44bdf19919215d9b6c
+      id: 4256411207
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d9411f7d32525344902aa1f103558772
+      - ElementName: SFX
+        ObjectType: 4
+        guid: aa74440f51765d4992c274b9c305e178
+      - ElementName: Events_Game_MainMenu_Stop
+        ObjectType: 3
+        guid: 661868d531bc7f44bdf19919215d9b6c
+      Path: Events/Default Work Unit/SFX/Events_Game_MainMenu_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Events_Game_Restart
       guid: d0e19540d1f9234e9ebb546a8dfe33c6
       id: 2575434475
@@ -442,8 +462,8 @@ MonoBehaviour:
         guid: 41184b06041c24468590bdfa325a3abc
       Path: Events/Default Work Unit/SFX/Player/Events_SFX_Player_10Secs
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Events_SFX_Player_Border
       guid: fe9c6c9b1cea2f429d3f8693877faee9
       id: 306606743
@@ -537,8 +557,8 @@ MonoBehaviour:
         guid: 4d6e87b10b485b4a80bd08496956bb83
       Path: Events/Default Work Unit/SFX/Player/Events_SFX_Player_Question
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: Levels
       guid: f04faf0e5a504649a05591728c8ff9c6
       id: 2678230316
@@ -972,7 +992,7 @@ MonoBehaviour:
     m_lastTime: -8584636814413853234
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0d0000000e0000000f000000
+  ExpandedWaapiItemIds: 0500000006000000070000000b0000000c0000000d0000000e0000000f000000100000001400000015000000160000001700000018000000280000002a0000002c0000002e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

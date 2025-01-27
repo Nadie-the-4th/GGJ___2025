@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	306606743	Events_SFX_Player_Border			\Default Work Unit\SFX\Player\Events_SFX_Player_Border	
 	512427451	Events_SFX_Player_Movement_Moving			\Default Work Unit\SFX\Player\Movement\Events_SFX_Player_Movement_Moving	
+	2152851392	Events_SFX_Player_10Secs			\Default Work Unit\SFX\Player\Events_SFX_Player_10Secs	
 	2387132205	Events_SFX_Player_Death			\Default Work Unit\SFX\Player\Events_SFX_Player_Death	
+	4049649869	Events_SFX_Player_Question			\Default Work Unit\SFX\Player\Events_SFX_Player_Question	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	48463084	SFX_Player_Death	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Windows\SFX\SFX_Player_Death_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\SFX_Player_Death		1069808

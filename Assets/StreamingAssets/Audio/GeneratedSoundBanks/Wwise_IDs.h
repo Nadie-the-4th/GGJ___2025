@@ -14,13 +14,16 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID EVENTS_GAME_MAINMENU = 1634477928U;
+        static const AkUniqueID EVENTS_GAME_MAINMENU_STOP = 4256411207U;
         static const AkUniqueID EVENTS_GAME_RESTART = 2575434475U;
         static const AkUniqueID EVENTS_GAME_START = 270303946U;
         static const AkUniqueID EVENTS_LEVELS_AREA1_START = 2891024992U;
         static const AkUniqueID EVENTS_LEVELS_AREA2_START = 2811708267U;
+        static const AkUniqueID EVENTS_SFX_PLAYER_10SECS = 2152851392U;
         static const AkUniqueID EVENTS_SFX_PLAYER_BORDER = 306606743U;
         static const AkUniqueID EVENTS_SFX_PLAYER_DEATH = 2387132205U;
         static const AkUniqueID EVENTS_SFX_PLAYER_MOVEMENT_MOVING = 512427451U;
+        static const AkUniqueID EVENTS_SFX_PLAYER_QUESTION = 4049649869U;
     } // namespace EVENTS
 
     namespace STATES

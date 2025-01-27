@@ -5,7 +5,6 @@ State	ID	Name	State Group			Notes
 	629923840	Area2	Level			
 	629923843	Area1	Level			
 	748895195	None	Level			
-	3705726509	Title	Level			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
