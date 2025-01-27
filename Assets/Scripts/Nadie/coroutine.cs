@@ -44,7 +44,7 @@ public class coroutine : MonoBehaviour
         Debug.Log("Fading the camera!");
         
 
-        yield return new WaitForSeconds(50f);
+        yield return new WaitForSeconds(70f);
         Debug.Log("awkwarddddd");
         Dialogue.StartDialogue(Questionnode);
 
