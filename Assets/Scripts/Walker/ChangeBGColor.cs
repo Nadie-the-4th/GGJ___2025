@@ -31,11 +31,11 @@ public class ChangeBGColor : MonoBehaviour
         //    BGColors.SetTrigger("Purple");
         //}
 
-        float yInput = Input.GetAxis("Vertical"); //y and b
-        float xInput = Input.GetAxis("Horizontal");
+        // float yInput = Input.GetAxis("Vertical"); //y and b
+        // float xInput = Input.GetAxis("Horizontal");
 
-        BGColors.SetFloat("yInput", Mathf.Abs(yInput));
-        BGColors.SetFloat("xInput", Mathf.Abs(xInput));
+        // BGColors.SetFloat("yInput", Mathf.Abs(yInput));
+        // BGColors.SetFloat("xInput", Mathf.Abs(xInput));
 
     }
 }

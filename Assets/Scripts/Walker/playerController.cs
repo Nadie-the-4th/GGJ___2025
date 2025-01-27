@@ -48,7 +48,7 @@ public class playerController : MonoBehaviour
 
 
 
-        if (Input.GetKeyDown("k"))
+        if (Input.GetKeyDown("j"))
         {
             playerRb.AddForce(transform.right * moveForce);
             animator.SetTrigger("Push");

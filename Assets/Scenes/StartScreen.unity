@@ -1142,9 +1142,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Use "y" and "b" to set rotation
+  m_text: 'Use "a" and "d" to set rotation
 
-    Press "k" to push the bubble
+    Press "j" to push the bubble
 
     Use
     the mouse to continue dialogue'
