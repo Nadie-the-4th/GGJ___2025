@@ -4,9 +4,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	2891024992	Events_Levels_Area1_Start			\Default Work Unit\Levels\Area1\Events_Levels_Area1_Start	
 
 State Group	ID	Name			Wwise Object Path	Notes
+	1395127868	GameTime			\Default Work Unit\GameTime	
 	2782712965	Level			\Default Work Unit\Level	
 
 State	ID	Name	State Group			Notes
+	529726532	End	GameTime			
+	748895195	None	GameTime			
+	1182670505	Mid	GameTime			
+	3881926874	Early	GameTime			
 	629923840	Area2	Level			
 	629923843	Area1	Level			
 	748895195	None	Level			

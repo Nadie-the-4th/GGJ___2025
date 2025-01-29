@@ -34,6 +34,7 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (timeValue <= 60 && !hasTriggeredQuestionDialogue)
         {
 
@@ -43,13 +44,15 @@ public class Timer : MonoBehaviour
 
 
             hasTriggeredQuestionDialogue = true;
-            
+
         }
 
-        if (timeValue <= 30 && !!hasTriggered10Seconds)
+        if (timeValue <= 30 && !hasTriggered10Seconds)
         {
+            playerControl.GetComponent<playerController>();
             AkSoundEngine.PostEvent("Events_SFX_Player_10Secs", playerControl);
             Debug.Log("30 seconds NOOOO");
+
             hasTriggered10Seconds = true;
         }
 

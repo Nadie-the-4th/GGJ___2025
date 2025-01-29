@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
     }
     public void PlayGame()
     {
-        AkSoundEngine.PostEvent("Events_Game_MainMenu_Stop", this.gameObject);
+        
         AkSoundEngine.PostEvent("Events_Game_Start", this.gameObject);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         

@@ -28,6 +28,19 @@ namespace AK
 
     namespace STATES
     {
+        namespace GAMETIME
+        {
+            static const AkUniqueID GROUP = 1395127868U;
+
+            namespace STATE
+            {
+                static const AkUniqueID EARLY = 3881926874U;
+                static const AkUniqueID END = 529726532U;
+                static const AkUniqueID MID = 1182670505U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace GAMETIME
+
         namespace LEVEL
         {
             static const AkUniqueID GROUP = 2782712965U;
@@ -41,35 +54,6 @@ namespace AK
         } // namespace LEVEL
 
     } // namespace STATES
-
-    namespace SWITCHES
-    {
-        namespace ANXIETY
-        {
-            static const AkUniqueID GROUP = 4143496951U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID LEVEL1 = 2678230382U;
-                static const AkUniqueID LEVEL2 = 2678230381U;
-                static const AkUniqueID LEVEL3 = 2678230380U;
-                static const AkUniqueID LEVEL4 = 2678230379U;
-            } // namespace SWITCH
-        } // namespace ANXIETY
-
-        namespace TIME
-        {
-            static const AkUniqueID GROUP = 2654366170U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID EARLY = 3881926874U;
-                static const AkUniqueID END = 529726532U;
-                static const AkUniqueID MID = 1182670505U;
-            } // namespace SWITCH
-        } // namespace TIME
-
-    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {

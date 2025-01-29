@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="629923905" Type="User" Language="SFX" Hash="{112E6C5A-7769-F0C3-F05A-AE0317A0954D}">
+		<SoundBank Id="629923905" Type="User" Language="SFX" Hash="{A9C65EE5-3A97-3E54-7D72-7D3A1AA847B9}">
 			<ShortName>Areas</ShortName>
 			<Path>Areas.bnk</Path>
 			<Media>
@@ -85,11 +85,8 @@
 					</ActionPostEvent>
 					<ActionSetState>
 						<ActionSetStateEntry GroupId="2782712965" Id="629923843" Name="Area1"/>
+						<ActionSetStateEntry GroupId="1395127868" Id="3881926874" Name="Early"/>
 					</ActionSetState>
-					<ActionSetSwitch>
-						<ActionSetSwitchEntry GroupId="4143496951" Id="2678230382" Name="Level1"/>
-						<ActionSetSwitchEntry GroupId="2654366170" Id="3881926874" Name="Early"/>
-					</ActionSetSwitch>
 				</Event>
 				<Event Id="2891024992" Name="Events_Levels_Area1_Start" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<ActionSetState>
@@ -103,6 +100,14 @@
 				</Event>
 			</Events>
 			<StateGroups>
+				<StateGroup Id="1395127868" Name="GameTime">
+					<States>
+						<State Id="529726532" Name="End"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1182670505" Name="Mid"/>
+						<State Id="3881926874" Name="Early"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="2782712965" Name="Level">
 					<States>
 						<State Id="629923840" Name="Area2"/>
@@ -111,25 +116,8 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
-			<SwitchGroups>
-				<SwitchGroup Id="2654366170" Name="Time">
-					<Switches>
-						<Switch Id="529726532" Name="End"/>
-						<Switch Id="1182670505" Name="Mid"/>
-						<Switch Id="3881926874" Name="Early"/>
-					</Switches>
-				</SwitchGroup>
-				<SwitchGroup Id="4143496951" Name="Anxiety">
-					<Switches>
-						<Switch Id="2678230379" Name="Level4"/>
-						<Switch Id="2678230380" Name="Level3"/>
-						<Switch Id="2678230381" Name="Level2"/>
-						<Switch Id="2678230382" Name="Level1"/>
-					</Switches>
-				</SwitchGroup>
-			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{54D30417-F04A-64AC-F38A-3B0DD2D04854}">
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{1935C88C-8601-A21D-3C72-33140D059842}">
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<Media>
@@ -148,9 +136,9 @@
 			</Media>
 			<Events>
 				<Event Id="2152851392" Name="Events_SFX_Player_10Secs" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<ActionSetSwitch>
-						<ActionSetSwitchEntry GroupId="2654366170" Id="529726532" Name="End"/>
-					</ActionSetSwitch>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1395127868" Id="529726532" Name="End"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="306606743" Name="Events_SFX_Player_Border" MaxAttenuation="100" DurationType="OneShot" DurationMin="5.072695" DurationMax="5.693908">
 					<MediaRefs>
@@ -168,22 +156,23 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="4049649869" Name="Events_SFX_Player_Question" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0">
-					<ActionSetSwitch>
-						<ActionSetSwitchEntry GroupId="2654366170" Id="1182670505" Name="Mid"/>
-					</ActionSetSwitch>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1395127868" Id="1182670505" Name="Mid"/>
+					</ActionSetState>
 				</Event>
 			</Events>
-			<SwitchGroups>
-				<SwitchGroup Id="2654366170" Name="Time">
-					<Switches>
-						<Switch Id="529726532" Name="End"/>
-						<Switch Id="1182670505" Name="Mid"/>
-						<Switch Id="3881926874" Name="Early"/>
-					</Switches>
-				</SwitchGroup>
-			</SwitchGroups>
+			<StateGroups>
+				<StateGroup Id="1395127868" Name="GameTime">
+					<States>
+						<State Id="529726532" Name="End"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1182670505" Name="Mid"/>
+						<State Id="3881926874" Name="Early"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6173F2BC-7C5A-2269-05FA-6406CF53EDDA}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9569CAC2-F574-4B52-9B3D-854B5B4E1E86}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -206,6 +195,14 @@
 				<GameParameter Id="1240670792" Name="Distance"/>
 			</GameParameters>
 			<StateGroups>
+				<StateGroup Id="1395127868" Name="GameTime">
+					<States>
+						<State Id="529726532" Name="End"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1182670505" Name="Mid"/>
+						<State Id="3881926874" Name="Early"/>
+					</States>
+				</StateGroup>
 				<StateGroup Id="2782712965" Name="Level">
 					<States>
 						<State Id="629923840" Name="Area2"/>
@@ -214,25 +211,8 @@
 					</States>
 				</StateGroup>
 			</StateGroups>
-			<SwitchGroups>
-				<SwitchGroup Id="2654366170" Name="Time">
-					<Switches>
-						<Switch Id="529726532" Name="End"/>
-						<Switch Id="1182670505" Name="Mid"/>
-						<Switch Id="3881926874" Name="Early"/>
-					</Switches>
-				</SwitchGroup>
-				<SwitchGroup Id="4143496951" Name="Anxiety">
-					<Switches>
-						<Switch Id="2678230379" Name="Level4"/>
-						<Switch Id="2678230380" Name="Level3"/>
-						<Switch Id="2678230381" Name="Level2"/>
-						<Switch Id="2678230382" Name="Level1"/>
-					</Switches>
-				</SwitchGroup>
-			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3604647259" Type="User" Language="SFX" Hash="{A51B6B72-9530-5D4B-9D35-23E324A51FE8}">
+		<SoundBank Id="3604647259" Type="User" Language="SFX" Hash="{0D07DE64-6A0F-A47A-C303-87F8440E3376}">
 			<ShortName>MainMenu</ShortName>
 			<Path>MainMenu.bnk</Path>
 			<Media>
@@ -246,36 +226,31 @@
 					<MediaRefs>
 						<MediaRef Id="982778482"/>
 					</MediaRefs>
-					<ActionSetSwitch>
-						<ActionSetSwitchEntry GroupId="4143496951" Id="2678230382" Name="Level1"/>
-						<ActionSetSwitchEntry GroupId="2654366170" Id="3881926874" Name="Early"/>
-					</ActionSetSwitch>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1395127868" Id="3881926874" Name="Early"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="4256411207" Name="Events_Game_MainMenu_Stop" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="2575434475" Name="Events_Game_Restart" DurationType="OneShot" DurationMin="0" DurationMax="0">
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="1634477928" Name="Events_Game_MainMenu"/>
 					</ActionPostEvent>
+					<ActionSetState>
+						<ActionSetStateEntry GroupId="1395127868" Id="3881926874" Name="Early"/>
+					</ActionSetState>
 				</Event>
 			</Events>
-			<SwitchGroups>
-				<SwitchGroup Id="2654366170" Name="Time">
-					<Switches>
-						<Switch Id="529726532" Name="End"/>
-						<Switch Id="1182670505" Name="Mid"/>
-						<Switch Id="3881926874" Name="Early"/>
-					</Switches>
-				</SwitchGroup>
-				<SwitchGroup Id="4143496951" Name="Anxiety">
-					<Switches>
-						<Switch Id="2678230379" Name="Level4"/>
-						<Switch Id="2678230380" Name="Level3"/>
-						<Switch Id="2678230381" Name="Level2"/>
-						<Switch Id="2678230382" Name="Level1"/>
-					</Switches>
-				</SwitchGroup>
-			</SwitchGroups>
+			<StateGroups>
+				<StateGroup Id="1395127868" Name="GameTime">
+					<States>
+						<State Id="529726532" Name="End"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="1182670505" Name="Mid"/>
+						<State Id="3881926874" Name="Early"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1280BD3C-5133-0C14-E1CF-EE53C08EF070}</FileHash>
+	<FileHash>{23C8B3B7-14C7-3610-F9FD-FB15FCC5AB62}</FileHash>
 </SoundBanksInfo>

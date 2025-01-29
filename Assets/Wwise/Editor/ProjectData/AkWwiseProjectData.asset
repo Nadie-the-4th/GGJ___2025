@@ -206,7 +206,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 358577ec1a2f6f42b0e9480342750074
     GuidInternal: 
-    m_lastTime: -8584636074054688615
+    m_lastTime: -8584635924827606199
     List:
     - name: Areas
       guid: f0188c45458e35488f9defa94a75e7ef
@@ -262,7 +262,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: d9411f7d32525344902aa1f103558772
     GuidInternal: 
-    m_lastTime: -8584635943844548422
+    m_lastTime: -8584635920010130192
     List:
     - name: Area1
       guid: 4bc68b267b0e1d41981066eed9d1eba5
@@ -747,8 +747,90 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: 5c4c21b049bcca478c2f4a6affdd53a1
     GuidInternal: 
-    m_lastTime: -8584636814414329874
+    m_lastTime: -8584635923584347743
     List:
+    - name: GameTime
+      guid: 2b12ae5e46a2da43bdf8feef0dafc68b
+      id: 1395127868
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5c4c21b049bcca478c2f4a6affdd53a1
+      - ElementName: GameTime
+        ObjectType: 9
+        guid: 2b12ae5e46a2da43bdf8feef0dafc68b
+      Path: States/Default Work Unit/GameTime
+      values:
+      - name: Early
+        guid: f56042368bf8584a9c1726ff5ec190dc
+        id: 3881926874
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5c4c21b049bcca478c2f4a6affdd53a1
+        - ElementName: GameTime
+          ObjectType: 9
+          guid: 2b12ae5e46a2da43bdf8feef0dafc68b
+        - ElementName: Early
+          ObjectType: 8
+          guid: f56042368bf8584a9c1726ff5ec190dc
+      - name: End
+        guid: c104652d0fb9d94d86f8c127554744a4
+        id: 529726532
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5c4c21b049bcca478c2f4a6affdd53a1
+        - ElementName: GameTime
+          ObjectType: 9
+          guid: 2b12ae5e46a2da43bdf8feef0dafc68b
+        - ElementName: End
+          ObjectType: 8
+          guid: c104652d0fb9d94d86f8c127554744a4
+      - name: Mid
+        guid: 970abb5dc236bc469439f07bffc19107
+        id: 1182670505
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5c4c21b049bcca478c2f4a6affdd53a1
+        - ElementName: GameTime
+          ObjectType: 9
+          guid: 2b12ae5e46a2da43bdf8feef0dafc68b
+        - ElementName: Mid
+          ObjectType: 8
+          guid: 970abb5dc236bc469439f07bffc19107
+      - name: None
+        guid: 4f959697db1b374091875ba9d7a37e86
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 5c4c21b049bcca478c2f4a6affdd53a1
+        - ElementName: GameTime
+          ObjectType: 9
+          guid: 2b12ae5e46a2da43bdf8feef0dafc68b
+        - ElementName: None
+          ObjectType: 8
+          guid: 4f959697db1b374091875ba9d7a37e86
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Level
       guid: 3ed97a61caf12c47b7fcc15fbafebce3
       id: 2782712965
@@ -827,156 +909,8 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 294821fef07e8a44ad974d5429733e9e
     GuidInternal: 
-    m_lastTime: -8584636814414628515
-    List:
-    - name: Anxiety
-      guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
-      id: 4143496951
-      PathAndIcons:
-      - ElementName: Switches
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 294821fef07e8a44ad974d5429733e9e
-      - ElementName: Anxiety
-        ObjectType: 11
-        guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
-      Path: Switches/Default Work Unit/Anxiety
-      values:
-      - name: Level1
-        guid: 4249f87f22464f4b9a0f57b30154291e
-        id: 2678230382
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 294821fef07e8a44ad974d5429733e9e
-        - ElementName: Anxiety
-          ObjectType: 11
-          guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
-        - ElementName: Level1
-          ObjectType: 10
-          guid: 4249f87f22464f4b9a0f57b30154291e
-      - name: Level2
-        guid: 663a7b5f4329da4ea177e4aea7e87ddd
-        id: 2678230381
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 294821fef07e8a44ad974d5429733e9e
-        - ElementName: Anxiety
-          ObjectType: 11
-          guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
-        - ElementName: Level2
-          ObjectType: 10
-          guid: 663a7b5f4329da4ea177e4aea7e87ddd
-      - name: Level3
-        guid: 086f72fee083e743b753b6dc780f273f
-        id: 2678230380
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 294821fef07e8a44ad974d5429733e9e
-        - ElementName: Anxiety
-          ObjectType: 11
-          guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
-        - ElementName: Level3
-          ObjectType: 10
-          guid: 086f72fee083e743b753b6dc780f273f
-      - name: Level4
-        guid: e55f494144ed4e4b858903e42b9b4d76
-        id: 2678230379
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 294821fef07e8a44ad974d5429733e9e
-        - ElementName: Anxiety
-          ObjectType: 11
-          guid: a8f95d52ddbd7a4b8c080fadc66cfdc3
-        - ElementName: Level4
-          ObjectType: 10
-          guid: e55f494144ed4e4b858903e42b9b4d76
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
-    - name: Time
-      guid: f2efc5b77131584894279aa55b1f95eb
-      id: 2654366170
-      PathAndIcons:
-      - ElementName: Switches
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 294821fef07e8a44ad974d5429733e9e
-      - ElementName: Time
-        ObjectType: 11
-        guid: f2efc5b77131584894279aa55b1f95eb
-      Path: Switches/Default Work Unit/Time
-      values:
-      - name: Early
-        guid: e1aedc9ac482494fbfa62ad8bfd46cce
-        id: 3881926874
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 294821fef07e8a44ad974d5429733e9e
-        - ElementName: Time
-          ObjectType: 11
-          guid: f2efc5b77131584894279aa55b1f95eb
-        - ElementName: Early
-          ObjectType: 10
-          guid: e1aedc9ac482494fbfa62ad8bfd46cce
-      - name: End
-        guid: 82766e6d99c32f44a5f882d32fced687
-        id: 529726532
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 294821fef07e8a44ad974d5429733e9e
-        - ElementName: Time
-          ObjectType: 11
-          guid: f2efc5b77131584894279aa55b1f95eb
-        - ElementName: End
-          ObjectType: 10
-          guid: 82766e6d99c32f44a5f882d32fced687
-      - name: Mid
-        guid: 67cc6d6165ebc14f93d42b4218f6f3a5
-        id: 1182670505
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 294821fef07e8a44ad974d5429733e9e
-        - ElementName: Time
-          ObjectType: 11
-          guid: f2efc5b77131584894279aa55b1f95eb
-        - ElementName: Mid
-          ObjectType: 10
-          guid: 67cc6d6165ebc14f93d42b4218f6f3a5
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
+    m_lastTime: -8584635922905027515
+    List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
