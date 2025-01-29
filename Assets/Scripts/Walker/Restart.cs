@@ -18,6 +18,7 @@ public class Restart : MonoBehaviour
 
     public void BacktoMain()
     {
+        playerControl.GetComponent<playerController>();
         AkSoundEngine.PostEvent("Events_Game_MainMenu", playerControl);
         Destroy(player);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);

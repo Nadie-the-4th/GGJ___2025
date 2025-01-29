@@ -15,36 +15,43 @@
 			<Media>
 				<File Id="246268980" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece2_Layer3.wav</ShortName>
+					<Path>Media/246268980.wem</Path>
 					<CachePath>SFX/Piece2_Layer3_FBC78EF0.wem</CachePath>
 					<PrefetchSize>17736</PrefetchSize>
 				</File>
 				<File Id="273874876" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece1_Melody.wav</ShortName>
+					<Path>Media/273874876.wem</Path>
 					<CachePath>SFX/Piece1_Melody_FBC78EF0.wem</CachePath>
 					<PrefetchSize>17736</PrefetchSize>
 				</File>
 				<File Id="286275588" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece1_Layer2.wav</ShortName>
+					<Path>Media/286275588.wem</Path>
 					<CachePath>SFX/Piece1_Layer2_FBC78EF0.wem</CachePath>
 					<PrefetchSize>19296</PrefetchSize>
 				</File>
 				<File Id="377225977" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece1_Layer1.wav</ShortName>
+					<Path>Media/377225977.wem</Path>
 					<CachePath>SFX/Piece1_Layer1_FBC78EF0.wem</CachePath>
 					<PrefetchSize>19296</PrefetchSize>
 				</File>
 				<File Id="539203744" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece2_Layer2.wav</ShortName>
+					<Path>Media/539203744.wem</Path>
 					<CachePath>SFX/Piece2_Layer2_FBC78EF0.wem</CachePath>
 					<PrefetchSize>17736</PrefetchSize>
 				</File>
 				<File Id="931020013" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece2_Layer1.wav</ShortName>
+					<Path>Media/931020013.wem</Path>
 					<CachePath>SFX/Piece2_Layer1_FBC78EF0.wem</CachePath>
 					<PrefetchSize>17736</PrefetchSize>
 				</File>
 				<File Id="938267252" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece1_Layer0.wav</ShortName>
+					<Path>Media/938267252.wem</Path>
 					<CachePath>SFX/Piece1_Layer0_FBC78EF0.wem</CachePath>
 					<PrefetchSize>19296</PrefetchSize>
 				</File>
@@ -54,6 +61,7 @@
 				</File>
 				<File Id="1013895534" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece1_Drone.wav</ShortName>
+					<Path>Media/1013895534.wem</Path>
 					<CachePath>SFX/Piece1_Drone_FBC78EF0.wem</CachePath>
 					<PrefetchSize>17736</PrefetchSize>
 				</File>
@@ -125,7 +133,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{1935C88C-8601-A21D-3C72-33140D059842}">
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{D2BFC1CA-5FF1-D5DD-7677-DA85C4724AF9}">
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<Media>
@@ -226,6 +234,7 @@
 			<Media>
 				<File Id="982778482" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music_Title.wav</ShortName>
+					<Path>Media/982778482.wem</Path>
 					<CachePath>SFX/Music_Title_FBC78EF0.wem</CachePath>
 					<PrefetchSize>19296</PrefetchSize>
 				</File>
@@ -261,5 +270,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7D8D2AD9-9B2E-D694-2779-F348D3D2BAAE}</FileHash>
+	<FileHash>{9517F4F2-2664-364E-091F-194AE6DB48D7}</FileHash>
 </SoundBanksInfo>
