@@ -9,45 +9,53 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="629923905" Type="User" Language="SFX" Hash="{A9C65EE5-3A97-3E54-7D72-7D3A1AA847B9}">
+		<SoundBank Id="629923905" Type="User" Language="SFX" Hash="{3DE9027F-49D8-3BE5-CAF5-687B28DF4283}">
 			<ShortName>Areas</ShortName>
 			<Path>Areas.bnk</Path>
 			<Media>
-				<File Id="246268980" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="246268980" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece2_Layer3.wav</ShortName>
 					<CachePath>SFX/Piece2_Layer3_FBC78EF0.wem</CachePath>
+					<PrefetchSize>17736</PrefetchSize>
 				</File>
-				<File Id="273874876" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="273874876" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece1_Melody.wav</ShortName>
 					<CachePath>SFX/Piece1_Melody_FBC78EF0.wem</CachePath>
+					<PrefetchSize>17736</PrefetchSize>
 				</File>
-				<File Id="286275588" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="286275588" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece1_Layer2.wav</ShortName>
 					<CachePath>SFX/Piece1_Layer2_FBC78EF0.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
 				</File>
-				<File Id="377225977" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="377225977" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece1_Layer1.wav</ShortName>
 					<CachePath>SFX/Piece1_Layer1_FBC78EF0.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
 				</File>
-				<File Id="539203744" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="539203744" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece2_Layer2.wav</ShortName>
 					<CachePath>SFX/Piece2_Layer2_FBC78EF0.wem</CachePath>
+					<PrefetchSize>17736</PrefetchSize>
 				</File>
-				<File Id="931020013" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="931020013" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece2_Layer1.wav</ShortName>
 					<CachePath>SFX/Piece2_Layer1_FBC78EF0.wem</CachePath>
+					<PrefetchSize>17736</PrefetchSize>
 				</File>
-				<File Id="938267252" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="938267252" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece1_Layer0.wav</ShortName>
 					<CachePath>SFX/Piece1_Layer0_FBC78EF0.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
 				</File>
 				<File Id="1004455760" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Player_Movement_Idle.wav</ShortName>
 					<CachePath>SFX/SFX_Player_Movement_Idle_FBC78EF0.wem</CachePath>
 				</File>
-				<File Id="1013895534" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="1013895534" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Piece1_Drone.wav</ShortName>
 					<CachePath>SFX/Piece1_Drone_FBC78EF0.wem</CachePath>
+					<PrefetchSize>17736</PrefetchSize>
 				</File>
 				<File Id="1020072390" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>BGs.wav</ShortName>
@@ -212,13 +220,14 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3604647259" Type="User" Language="SFX" Hash="{0D07DE64-6A0F-A47A-C303-87F8440E3376}">
+		<SoundBank Id="3604647259" Type="User" Language="SFX" Hash="{B9860EB4-63F7-0BC4-EA48-8DB7434AA0A3}">
 			<ShortName>MainMenu</ShortName>
 			<Path>MainMenu.bnk</Path>
 			<Media>
-				<File Id="982778482" Language="SFX" Streaming="false" Location="Memory">
+				<File Id="982778482" Language="SFX" Streaming="true" Location="Memory">
 					<ShortName>Music_Title.wav</ShortName>
 					<CachePath>SFX/Music_Title_FBC78EF0.wem</CachePath>
+					<PrefetchSize>19296</PrefetchSize>
 				</File>
 			</Media>
 			<Events>
@@ -252,5 +261,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{23C8B3B7-14C7-3610-F9FD-FB15FCC5AB62}</FileHash>
+	<FileHash>{497049BF-4E95-17D0-FE0A-243202441D11}</FileHash>
 </SoundBanksInfo>

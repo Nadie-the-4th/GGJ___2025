@@ -17,14 +17,24 @@ State	ID	Name	State Group			Notes
 	748895195	None	Level			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	246268980	Piece2_Layer1	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece2_Layer3_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area2\Piece2\Piece2_Layer1		19658788
-	273874876	Piece1_Melody	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Melody_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area1\Piece1\Piece1_Melody		24796896
-	286275588	Piece1_Melody	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Layer2_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area1\Piece1\Piece1_Melody		23040096
-	377225977	Piece2_Layer1	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Layer1_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area2\Piece2\Piece2_Layer1		23040096
-	539203744	Piece2_Layer1	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece2_Layer2_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area2\Piece2\Piece2_Layer1		21168096
-	931020013	Piece2_Layer2	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece2_Layer1_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area2\Piece2\Piece2_Layer2		21168096
-	938267252	Piece1_Melody	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Layer0_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area1\Piece1\Piece1_Melody		23040096
+	246268980	Piece2_Layer1	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece2_Layer3_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area2\Piece2\Piece2_Layer1		17736
+	273874876	Piece1_Melody	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Melody_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area1\Piece1\Piece1_Melody		17736
+	286275588	Piece1_Melody	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Layer2_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area1\Piece1\Piece1_Melody		19296
+	377225977	Piece2_Layer1	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Layer1_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area2\Piece2\Piece2_Layer1		19296
+	539203744	Piece2_Layer1	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece2_Layer2_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area2\Piece2\Piece2_Layer1		17736
+	931020013	Piece2_Layer2	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece2_Layer1_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area2\Piece2\Piece2_Layer2		17736
+	938267252	Piece1_Melody	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Layer0_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area1\Piece1\Piece1_Melody		19296
 	1004455760	SFX_Player_Movement_Idle	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\SFX_Player_Movement_Idle_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Movement\SFX_Player_Movement_Idle		10861808
-	1013895534	Piece1_Drone	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Drone_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area1\Piece1\Piece1_Drone		24796896
+	1013895534	Piece1_Drone	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Drone_FBC78EF0.wem		\Interactive Music Hierarchy\Game Music\Music\Area1\Piece1\Piece1_Drone		17736
 	1020072390	BG_Ambience_1	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\BGs_C0E215E8.wem		\Actor-Mixer Hierarchy\Default Work Unit\BG\Ambience\BG_Ambience_1		27770704
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	246268980	Piece2_Layer1	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece2_Layer3_FBC78EF0.wem	246268980.wem	\Interactive Music Hierarchy\Game Music\Music\Area2\Piece2\Piece2_Layer1	
+	273874876	Piece1_Melody	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Melody_FBC78EF0.wem	273874876.wem	\Interactive Music Hierarchy\Game Music\Music\Area1\Piece1\Piece1_Melody	
+	286275588	Piece1_Melody	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Layer2_FBC78EF0.wem	286275588.wem	\Interactive Music Hierarchy\Game Music\Music\Area1\Piece1\Piece1_Melody	
+	377225977	Piece2_Layer1	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Layer1_FBC78EF0.wem	377225977.wem	\Interactive Music Hierarchy\Game Music\Music\Area2\Piece2\Piece2_Layer1	
+	539203744	Piece2_Layer1	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece2_Layer2_FBC78EF0.wem	539203744.wem	\Interactive Music Hierarchy\Game Music\Music\Area2\Piece2\Piece2_Layer1	
+	931020013	Piece2_Layer2	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece2_Layer1_FBC78EF0.wem	931020013.wem	\Interactive Music Hierarchy\Game Music\Music\Area2\Piece2\Piece2_Layer2	
+	938267252	Piece1_Melody	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Layer0_FBC78EF0.wem	938267252.wem	\Interactive Music Hierarchy\Game Music\Music\Area1\Piece1\Piece1_Melody	
+	1013895534	Piece1_Drone	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\Piece1_Drone_FBC78EF0.wem	1013895534.wem	\Interactive Music Hierarchy\Game Music\Music\Area1\Piece1\Piece1_Drone	
 
