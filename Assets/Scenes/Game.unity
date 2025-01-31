@@ -1920,10 +1920,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4bf319dbb7884e40b85c6689b3ac3cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveForce: 80
   bounceForce: 20
   playerSprite: {fileID: 7237723346452037595, guid: 05d0228a0faaf4d56958347485b496e6, type: 3}
   animateCharacter: {fileID: 0}
   animator: {fileID: 0}
+  actualVelocity: 0
+  velocityRtpcMultiplier: 8
 --- !u!58 &1209607636
 CircleCollider2D:
   m_ObjectHideFlags: 0

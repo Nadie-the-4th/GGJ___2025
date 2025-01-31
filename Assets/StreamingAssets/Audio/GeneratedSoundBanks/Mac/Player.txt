@@ -5,8 +5,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	2387132205	Events_SFX_Player_Death			\Default Work Unit\SFX\Player\Events_SFX_Player_Death	
 	4049649869	Events_SFX_Player_Question			\Default Work Unit\SFX\Player\Events_SFX_Player_Question	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3519441192	Velocity			\Default Work Unit\Player\Velocity	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	48463084	SFX_Player_Death	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\SFX_Player_Death_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\SFX_Player_Death		1069808
-	263065244	SFX_Player_Movement_Bounce	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\SFX_Player_Movement_Bounce_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Movement\SFX_Player_Movement_Bounce		1031968
+	48463084	SFX_Player_Death	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\SFX_Player_Death_4D5D0D43.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\SFX_Player_Death		807288
+	263065244	SFX_Player_Movement_Bounce	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\SFX_Player_Movement_Bounce_A2498ED0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Movement\SFX_Player_Movement_Bounce		290328
 	377985535	SFX_Player_Movement_Moving	Y:\Desktop\Game Dev\GGJ2025 Wwise\.cache\Mac\SFX\SFX_Player_Movement_Moving_946FE972.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Movement\SFX_Player_Movement_Moving		367940
 

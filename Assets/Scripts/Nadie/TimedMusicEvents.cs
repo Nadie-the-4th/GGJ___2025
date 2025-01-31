@@ -24,7 +24,7 @@ public class TimedMusicEvents : MonoBehaviour
  
        public void Questionnode()
     {
-        //AkSoundEngine.PostEvent("Events_SFX_Player_Question", playerControl);
+        AkSoundEngine.PostEvent("Events_SFX_Player_Question", playerControl);
         Debug.Log("Question works!");
 
 
@@ -34,7 +34,7 @@ public class TimedMusicEvents : MonoBehaviour
 
        public void Tensecnode() 
     {
-        //AkSoundEngine.PostEvent("Events_SFX_Player_10Secs", playerControl);
+        AkSoundEngine.PostEvent("Events_SFX_Player_10Secs", playerControl);
         Debug.Log("Ten works!");        
 
     }

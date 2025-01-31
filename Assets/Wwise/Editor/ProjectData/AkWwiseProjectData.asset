@@ -262,7 +262,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: d9411f7d32525344902aa1f103558772
     GuidInternal: 
-    m_lastTime: -8584634703965359645
+    m_lastTime: -8584633243617642183
     List:
     - name: Area1
       guid: 4bc68b267b0e1d41981066eed9d1eba5
@@ -508,8 +508,8 @@ MonoBehaviour:
         guid: 85bf750efe044943820ee3e1aa38166c
       Path: Events/Default Work Unit/SFX/Player/Events_SFX_Player_Death
       maxAttenuation: 100
-      maxDuration: 5.571417
-      minDuration: 5.571417
+      maxDuration: 4.2041197
+      minDuration: 4.2041197
     - name: Events_SFX_Player_Movement_Moving
       guid: 3ffbc01b69f31746b1503a0ddf4c0af9
       id: 512427451
@@ -691,7 +691,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 942e7dc0cbc97f448adc2350497ba052
     GuidInternal: 
-    m_lastTime: -8584636814414274357
+    m_lastTime: -8584633243617518172
     List:
     - name: Distance
       guid: ba472c38178b2643a0aead124293fcc3
@@ -735,6 +735,23 @@ MonoBehaviour:
         ObjectType: 4
         guid: f289cb71b4a815479378f19453779a62
       Path: Game Parameters/Default Work Unit/Player
+    - name: Velocity
+      guid: 298c68cac5e3564396d210dc868105e6
+      id: 3519441192
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 942e7dc0cbc97f448adc2350497ba052
+      - ElementName: Player
+        ObjectType: 4
+        guid: f289cb71b4a815479378f19453779a62
+      - ElementName: Velocity
+        ObjectType: 13
+        guid: 298c68cac5e3564396d210dc868105e6
+      Path: Game Parameters/Default Work Unit/Player/Velocity
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:

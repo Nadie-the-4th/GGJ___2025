@@ -58,6 +58,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DISTANCE = 1240670792U;
+        static const AkUniqueID VELOCITY = 3519441192U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

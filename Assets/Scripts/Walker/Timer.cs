@@ -15,7 +15,7 @@ public class Timer : MonoBehaviour
     public GameObject locator;
     public GameObject playerControl;
 
-    private bool hasTriggeredQuestionDialogue = false;
+    //private bool hasTriggeredQuestionDialogue = false;
     private bool hasTriggered10Seconds = false;
     // Start is called before the first frame update
     void Start()
@@ -34,18 +34,14 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        if (timeValue <= 60 && !hasTriggeredQuestionDialogue)
-        {
 
-            playerControl.GetComponent<playerController>();
-            AkSoundEngine.PostEvent("Events_SFX_Player_Question", playerControl);
-            Debug.Log("60 seconds nooo");
+        //if (timeValue <= 60 && !hasTriggeredQuestionDialogue)
+        //{
 
+        //    playerControl.GetComponent<playerController>();
+        //    hasTriggeredQuestionDialogue = true;
 
-            hasTriggeredQuestionDialogue = true;
-
-        }
+        //}
 
         if (timeValue <= 30 && !hasTriggered10Seconds)
         {

@@ -133,17 +133,17 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{D2BFC1CA-5FF1-D5DD-7677-DA85C4724AF9}">
+		<SoundBank Id="1069431850" Type="User" Language="SFX" Hash="{16EEF012-101C-3C0E-8171-0817B6D0EA58}">
 			<ShortName>Player</ShortName>
 			<Path>Player.bnk</Path>
 			<Media>
 				<File Id="48463084" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Player_Death.wav</ShortName>
-					<CachePath>SFX/SFX_Player_Death_818F3B66.wem</CachePath>
+					<CachePath>SFX/SFX_Player_Death_4D5D0D43.wem</CachePath>
 				</File>
 				<File Id="263065244" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Player_Movement_Bounce.wav</ShortName>
-					<CachePath>SFX/SFX_Player_Movement_Bounce_818F3B66.wem</CachePath>
+					<CachePath>SFX/SFX_Player_Movement_Bounce_A2498ED0.wem</CachePath>
 				</File>
 				<File Id="377985535" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Player_Movement_Moving.wav</ShortName>
@@ -161,7 +161,7 @@
 						<MediaRef Id="263065244"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2387132205" Name="Events_SFX_Player_Death" MaxAttenuation="100" DurationType="OneShot" DurationMin="5.571417" DurationMax="5.571417">
+				<Event Id="2387132205" Name="Events_SFX_Player_Death" MaxAttenuation="100" DurationType="OneShot" DurationMin="4.2041197" DurationMax="4.2041197">
 					<MediaRefs>
 						<MediaRef Id="48463084"/>
 					</MediaRefs>
@@ -177,6 +177,9 @@
 					</ActionSetState>
 				</Event>
 			</Events>
+			<GameParameters>
+				<GameParameter Id="3519441192" Name="Velocity"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1395127868" Name="GameTime">
 					<States>
@@ -188,7 +191,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9569CAC2-F574-4B52-9B3D-854B5B4E1E86}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{CA881BC4-6A46-BA1E-3898-84C0F8A3A542}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -209,6 +212,7 @@
 			</Busses>
 			<GameParameters>
 				<GameParameter Id="1240670792" Name="Distance"/>
+				<GameParameter Id="3519441192" Name="Velocity"/>
 			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="1395127868" Name="GameTime">
@@ -228,7 +232,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3604647259" Type="User" Language="SFX" Hash="{B9860EB4-63F7-0BC4-EA48-8DB7434AA0A3}">
+		<SoundBank Id="3604647259" Type="User" Language="SFX" Hash="{1909CFC1-9BB7-30F3-376F-7DA8F7567829}">
 			<ShortName>MainMenu</ShortName>
 			<Path>MainMenu.bnk</Path>
 			<Media>
@@ -270,5 +274,5 @@
 			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D17B5980-6AC2-FB1C-C609-E057A29E874D}</FileHash>
+	<FileHash>{B694ADA3-24FA-CE83-34E2-CC512F677160}</FileHash>
 </SoundBanksInfo>

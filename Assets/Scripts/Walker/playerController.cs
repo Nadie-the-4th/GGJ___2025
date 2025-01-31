@@ -7,12 +7,16 @@ public class playerController : MonoBehaviour
 
     private Rigidbody2D playerRb;
     private float rotationForce = 3.0f;
-    private float moveForce = 80.0f;
+    public float moveForce = 80.0f;
     private Vector2 velocity;
     public float bounceForce;
     public GameObject playerSprite;
     public GameObject animateCharacter;
     public Animator animator;
+    [SerializeField] private float actualVelocity;
+
+    [Header("Wwise Settings")]
+    public float velocityRtpcMultiplier = 8;
 
 
     // Start is called before the first frame update
@@ -61,6 +65,10 @@ public class playerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Boundary"))
         {
             playerRb.AddForce(transform.right * (-moveForce* bounceForce));
+            float velocityXSquared = playerRb.velocity.x * playerRb.velocity.x;
+            float velocityYSquared = playerRb.velocity.y * playerRb.velocity.y;
+            actualVelocity = Mathf.Sqrt(velocityXSquared + velocityYSquared);
+            AkSoundEngine.SetRTPCValue("Velocity", actualVelocity * velocityRtpcMultiplier);
             AkSoundEngine.PostEvent("Events_SFX_Player_Border", this.gameObject);
         }
     }
